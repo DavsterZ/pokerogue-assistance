@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from app.models.team import Team
 from app.models.pokemon import Pokemon
 from app.core.decision_engine import analyze_combat_matchup
+from app.services.pokemon_service import POKEMON_DB
 
 
 router = APIRouter()
@@ -12,6 +13,19 @@ router = APIRouter()
 class CombatRequest(BaseModel):
     my_team: Team
     enemy_pokemon: Pokemon
+
+
+@router.get("/pokemon/names")
+def get_pokemon_names():
+    """
+        Devuelve una lista con todos los nombres de Pokemon disponibles.
+        Util para rellenar menus en el frontend.
+    """
+    names = list(POKEMON_DB.keys())
+
+    # Ordenamos alfabeticamente
+    names.sort()
+    return names;
 
 
 @router.post("/analyze/combat")
