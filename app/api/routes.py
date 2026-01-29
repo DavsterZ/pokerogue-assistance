@@ -4,6 +4,7 @@ from app.models.team import Team
 from app.models.pokemon import Pokemon
 from app.core.decision_engine import analyze_combat_matchup
 from app.services.pokemon_service import POKEMON_DB
+from app.services.pokemon_service import get_pokemon as service_get_pokemon
 
 
 router = APIRouter()
@@ -26,6 +27,19 @@ def get_pokemon_names():
     # Ordenamos alfabeticamente
     names.sort()
     return names;
+
+
+@router.get("/pokemon/{name}")
+def get_single_pokemon(name: str):
+    """
+        Deuelve los datos completos de un Pokemons dado su nombre.
+    """
+    try:
+        return service_get_pokemon(name)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.post("/analyze/combat")
