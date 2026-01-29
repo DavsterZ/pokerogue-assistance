@@ -2,7 +2,7 @@ from typing import List, Dict
 from app.models.pokemon import Pokemon
 from app.models.team import Team
 from app.core.type_chart import get_effectiveness
-from app.core.rules import check_ability_inmunity
+from app.core.rules import check_ability_immunity
 
 
 def analyze_spped_matchup(my_speed_base: int, enemy_speed_base: int) -> dict:
