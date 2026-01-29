@@ -4,6 +4,7 @@ const API_URL = "http://127.0.0.1:8000";
 const mySelect = document.getElementById('my-pokemon-select');
 const enemySelect = document.getElementById('enemy-pokemon-select');
 const btnAnalyze = document.getElementById('analyze-btn');
+const btnCatch = document.getElementById('catch-btn');
 const resultArea = document.getElementById('result-area');
 const recommendationText = document.getElementById('recommendation-text');
 const reasonsList = document.getElementById('reasons-list');
@@ -118,6 +119,55 @@ btnAnalyze.addEventListener('click', async () => {
     } catch (error) {
         console.error("Error análisis:", error);
         alert("Error al analizar. Mira la consola (F12) para más detalles.");
+    }
+});
+
+
+// Analizar captura
+btnCatch.addEventListener('click', async () => {
+    const myName = mySelect.value;
+    const enemyName = enemySelect.value; // En este caso, el "enemigo" es el salvaje
+
+    if (!myName || !enemyName) {
+        alert("¡Selecciona tu equipo y el salvaje primero!");
+        return;
+    }
+
+    try {
+        const myData = await fetchPokemonData(myName);
+        const wildData = await fetchPokemonData(enemyName);
+
+        const payload = {
+            "my_team": { "members": [myData] },
+            "enemy_pokemon": wildData
+        };
+
+        const response = await fetch(`${API_URL}/analyze/catch`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+
+        const result = await response.json();
+
+        // MOSTRAR RESULTADOS
+        resultArea.classList.remove('hidden');
+        
+        // Cambiamos el color del borde según el veredicto
+        resultArea.style.borderLeftColor = result.color === 'green' ? '#a6e3a1' : (result.color === 'orange' ? '#fab387' : '#f38ba8');
+
+        recommendationText.innerHTML = `<strong style="font-size: 1.2em">${result.verdict}</strong>`;
+        
+        reasonsList.innerHTML = '';
+        result.reasons.forEach(reason => {
+            const li = document.createElement('li');
+            li.textContent = reason;
+            reasonsList.appendChild(li);
+        });
+
+    } catch (error) {
+        console.error("Error análisis captura:", error);
+        alert("Error al analizar captura.");
     }
 });
 
