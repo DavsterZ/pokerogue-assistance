@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéRogue Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎮 PokéRogue Assistant</h1>
+
+        <div class="battle-setup">
+            
+            <div class="card player-card">
+                <h2>Tu Pokémon</h2>
+                <select id="my-pokemon-select">
+                    <option value="" disabled selected>Elige tu Pokémon...</option>
+                    </select>
+                <div id="my-pokemon-preview" class="sprite-preview">
+                    <span>?</span>
+                </div>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="card enemy-card">
+                <h2>Enemigo</h2>
+                <select id="enemy-pokemon-select">
+                    <option value="" disabled selected>Elige al enemigo...</option>
+                    </select>
+                <div id="enemy-pokemon-preview" class="sprite-preview">
+                    <span>?</span>
+                </div>
+            </div>
+        </div>
+
+        <button id="analyze-btn" class="analyze-btn">🧠 Analizar Combate</button>
+
+        <div id="result-area" class="result-area hidden">
+            <h3>Recomendación del Asistente:</h3>
+            <div id="recommendation-text"></div>
+            <ul id="reasons-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
