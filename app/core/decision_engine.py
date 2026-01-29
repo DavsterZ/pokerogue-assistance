@@ -4,6 +4,42 @@ from app.models.team import Team
 from app.core.type_chart import get_effectiveness
 
 
+def analyze_spped_matchup(my_speed_base: int, enemy_speed_base: int) -> dict:
+    """
+        Analiza la velocidad con un margen de seguridad por culpa de los IVs/Naturalezas
+    """ 
+
+    diff = my_speed_base - enemy_speed_base
+
+    SAFE_MARGIN = 15
+
+    if diff >= SAFE_MARGIN:
+        return {
+            "score": 20,
+            "desc": "Muy probable que ataques primero (Velocidad Segura)"
+        }
+    elif diff > 0:
+        return {
+            "score": 5,
+            "desc": "ZONA DE RIESGO: Deberías ser más rápido, pero cuidado con sus IVs/Naturaleza."
+        }
+    elif diff == 0:
+        return {
+            "score": -5,
+            "desc": "SPEED TIE: Misma velocidad base. Es una moneda al aire."
+        }
+    elif diff > -SAFE_MARGIN:
+        return {
+            "score": -10,
+            "desc": "Probablemente seas más lento (Cerca, pero arriesgado)"
+        }
+    else:
+        return {
+            "score": -20,
+            "desc": "Eres mucho más lento. Recibirás el golpe antes."
+        }
+    
+
 def analyze_combat_matchup(team: Team, enemy: Pokemon) -> Dict:
     """
         Analiza que Pokemon de tu equipo es la mejor opcion conra el enemigo actual
@@ -47,20 +83,21 @@ def analyze_combat_matchup(team: Team, enemy: Pokemon) -> Dict:
             reasons.append("Eres inmune a sus ataques!")
 
         
-        # Matar antes de que te toquen es vital
-        if member.speed > enemy.speed:
-            score += 20
-            reasons.append("Eres mas rapido")
-        else:
-            score -= 10
-            reasons.append("Eres mas lento, recibiras daño antes de atacar")
+        # Velocidad
+        speed_analysis = analyze_spped_matchup(member.speed, enemy.speed)
+        score += speed_analysis['score']
+        reasons.append(speed_analysis['desc'])
 
+        if max_defensive_mult >= 2.0 and speed_analysis["score"] < 0:
+            score -= 50
+            reasons.append("PELIGRO CRÍTICO: Lento y débil = Muerte probable")
+        
         
         recomendations.append({
             "pokemon": member.name,
             "score": score,
-            "offensive_multiplier": max_offensive_mult,
-            "defensive_multiplier": max_defensive_mult,
+            # "offensive_multiplier": max_offensive_mult,
+            # "defensive_multiplier": max_defensive_mult,
             "reasons": reasons
         })
 
