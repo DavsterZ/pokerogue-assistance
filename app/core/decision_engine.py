@@ -52,14 +52,17 @@ def analyze_combat_matchup(team: Team, enemy: Pokemon) -> Dict:
 
         # Calculamos si alguno de mis tipos pega fuerte al enemigo
         max_offensive_mult = 0.0
+        best_attack_type = ""
+
         for my_type in member.types:
             eff = get_effectiveness(my_type, enemy.types)
             if eff > max_offensive_mult:
                 max_offensive_mult = eff
+                best_attack_type = my_type
         
         if max_offensive_mult >= 2.0:
             score += 50
-            reasons.append(f"Tu tipo {my_type} es super eficaz contra {enemy.name} (x{max_offensive_mult})")
+            reasons.append(f"Tu tipo {best_attack_type} es super eficaz contra {enemy.name} (x{max_offensive_mult})")
         elif max_offensive_mult <= 0.5:
             score -= 30
             reasons.append("Tus ataques no seran muy efectivos contra este enemigo")
@@ -96,9 +99,8 @@ def analyze_combat_matchup(team: Team, enemy: Pokemon) -> Dict:
         recomendations.append({
             "pokemon": member.name,
             "score": score,
-            # "offensive_multiplier": max_offensive_mult,
-            # "defensive_multiplier": max_defensive_mult,
-            "reasons": reasons
+            "reasons": reasons,
+            "sprite": member.sprite # Para frontend
         })
 
     
@@ -110,7 +112,7 @@ def analyze_combat_matchup(team: Team, enemy: Pokemon) -> Dict:
     return {
         "best_pokemon": best_pick["pokemon"],
         "analysis": recomendations,
-        "summary": f"Usa a {best_pick['pokemon']}. {', '.join(best_pick['reasons'][:2])}"
+        "summary": f"Usa a {best_pick['pokemon']}. {best_pick['reasons'][0]}."
     }
 
         
