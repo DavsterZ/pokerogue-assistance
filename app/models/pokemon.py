@@ -12,8 +12,8 @@ class Pokemon(BaseModel):
     speed: int
 
     # Stats Speciales
-    sp_attack: int = Field(alias="special_attack")
-    sp_defense: int = Field(alias="special_defense")
+    sp_attack: int = Field(alias="special-attack")
+    sp_defense: int = Field(alias="special-defense")
 
     # Informacion util para logica avanzada
     role: str = "balanced"       # sweeper, tank, support, etc.
