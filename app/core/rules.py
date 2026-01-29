@@ -27,7 +27,7 @@ ABILITY_INMUNITIES = {
 }
 
 
-def check_ability_inmunity(attack_type: str, defender_abilities: list[str]) -> bool:
+def check_ability_immunity(attack_type: str, defender_abilities: list[str]) -> bool:
     """
         Devuelve True si el defensor tiene una habilidad que le hace inmune 
         al tipo del ataque
