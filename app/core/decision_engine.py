@@ -142,4 +142,60 @@ def analyze_combat_matchup(team: Team, enemy: Pokemon) -> Dict:
         "summary": f"Usa a {best_pick['pokemon']}. {best_pick['reasons'][0]}."
     }
 
+
+def analyze_catch_potential(team: Team, wild_pokemon: Pokemon) -> Dict:
+    """
+        Analiza si deberias capturar un Pokemon basandose en lo que le falta al equipo
+    """
+    score = 0
+    reasons = []
+
+    # Recopilamos todos los tipos que ya tenemos en el equipo
+    existing_types = set()
+    for member in team.members:
+        for t in member.types:
+            existing_types.add(t)
+
+    # Miramos los tipos del pokemos salvaje
+    new_types_count = 0
+    for wild_type in wild_pokemon.types:
+        if wild_type not in existing_types:
+            score += 40
+            reasons.append(f"Aporta el tipo {wild_type}")
+            new_types_count += 1
+        else:
+            score -= 10
+            reasons.append(f"Ya tienes el tipo {wild_type}")
+
+    
+    # Analisis de rol
+    same_role_count = sum(1 for p in team.members if p.role == wild_pokemon.role)
+
+    if same_role_count == 0:
+        score += 20
+        reasons.append(f"Necesitas un {wild_pokemon.role}")
+    elif same_role_count >= 2:
+        score -= 20
+        reasons.append(f"Ya tienes demasiados {wild_pokemon.role}s")
+
+    
+    # Recomendacion final
+    if score >= 40:
+        verdict = "CAPTURA RECOMENDADA!"
+        color = "green"
+    elif score > 0:
+        verdict = "Opcion decente"
+        color = "orange"
+    else:
+        verdict = "No lo necesitas"
+        color = "red"
+
+    return {
+        "score": score,
+        "verdict": verdict,
+        "color": color,
+        "reasons": reasons,
+        "summary": f"{verdict}. {reasons[0] if reasons else ''}"
+    }
+
         
