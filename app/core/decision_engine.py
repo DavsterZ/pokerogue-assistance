@@ -58,7 +58,7 @@ def analyze_combat_matchup(team: Team, enemy: Pokemon) -> Dict:
         ability_blocked = False
 
         for my_type in member.types:
-            if check_ability_inmunity(my_type, enemy.abilities):
+            if check_ability_immunity(my_type, enemy.abilities):
                 eff = 0.0
                 ability_blocked = True
             else:
@@ -88,7 +88,7 @@ def analyze_combat_matchup(team: Team, enemy: Pokemon) -> Dict:
         saved_by_ability = False
 
         for enemy_type in enemy.types:
-            if check_ability_inmunity(enemy_type, member.abilities):
+            if check_ability_immunity(enemy_type, member.abilities):
                 eff = 0.0
                 saved_by_ability = True
             else:
