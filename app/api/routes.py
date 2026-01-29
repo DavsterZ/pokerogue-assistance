@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from app.models.team import Team
 from app.models.pokemon import Pokemon
-from app.core.decision_engine import analyze_combat_matchup
+from app.core.decision_engine import analyze_combat_matchup, analyze_catch_potential
 from app.services.pokemon_service import POKEMON_DB
 from app.services.pokemon_service import get_pokemon as service_get_pokemon
 
@@ -52,6 +52,20 @@ def analyze_combat(request: CombatRequest):
     try:
         # Llamamos al cerebro
         result = analyze_combat_matchup(request.my_team, request.enemy_pokemon)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
+
+@router.post("/analyze/catch")
+def analyze_catch(request: CombatRequest):
+    """
+        Endpoint para decidir si capturar un Pokemon salvaje.
+        Reutilizamos el modelo 'CombatRequest' porque los datos son los mismos:
+        Mi equipo vs Un pokemon
+    """
+    try:
+        result = analyze_catch_potential(request.my_team, request.enemy_pokemon)
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
