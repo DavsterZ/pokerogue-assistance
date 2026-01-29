@@ -2,6 +2,7 @@ from typing import List, Dict
 from app.models.pokemon import Pokemon
 from app.models.team import Team
 from app.core.type_chart import get_effectiveness
+from app.core.rules import check_ability_inmunity
 
 
 def analyze_spped_matchup(my_speed_base: int, enemy_speed_base: int) -> dict:
@@ -54,36 +55,62 @@ def analyze_combat_matchup(team: Team, enemy: Pokemon) -> Dict:
         max_offensive_mult = 0.0
         best_attack_type = ""
 
+        ability_blocked = False
+
         for my_type in member.types:
-            eff = get_effectiveness(my_type, enemy.types)
+            if check_ability_inmunity(my_type, enemy.abilities):
+                eff = 0.0
+                ability_blocked = True
+            else:
+                eff = get_effectiveness(my_type, enemy.types)
+
             if eff > max_offensive_mult:
                 max_offensive_mult = eff
                 best_attack_type = my_type
-        
-        if max_offensive_mult >= 2.0:
+
+        # Puntuación Ofensiva
+        if ability_blocked and max_offensive_mult == 0.0:
+            score -= 100
+            reasons.append(f"¡CUIDADO! Su habilidad bloquea tus ataques de tipo {best_attack_type or 'principal'}")
+        elif max_offensive_mult >= 2.0:
             score += 50
-            reasons.append(f"Tu tipo {best_attack_type} es super eficaz contra {enemy.name} (x{max_offensive_mult})")
+            reasons.append(f"Tu tipo {best_attack_type} es súper eficaz (x{max_offensive_mult})")
+        elif max_offensive_mult == 0.0:
+            score -= 50
+            reasons.append(f"Tus ataques no le afectan (Inmunidad de Tipo)")
         elif max_offensive_mult <= 0.5:
             score -= 30
-            reasons.append("Tus ataques no seran muy efectivos contra este enemigo")
+            reasons.append("Tus ataques no serán muy efectivos")
 
         
         # Calculamos si el enemigo me pega fuerte a mi
         max_defensive_mult = 0.0
+        saved_by_ability = False
+
         for enemy_type in enemy.types:
-            eff = get_effectiveness(enemy_type, member.types)
+            if check_ability_inmunity(enemy_type, member.abilities):
+                eff = 0.0
+                saved_by_ability = True
+            else:
+                eff = get_effectiveness(enemy_type, member.types)
+
             if eff > max_defensive_mult:
                 max_defensive_mult = eff
 
-        if max_defensive_mult >= 2.0:
+
+       # Puntuación Defensiva
+        if saved_by_ability and max_defensive_mult == 0.0:
+            score += 150 # ¡Esto es buenísimo!
+            reasons.append(f"✨ Tu habilidad te hace INMUNE a sus ataques de tipo {enemy_type}")
+        elif max_defensive_mult >= 2.0:
             score -= 40
             reasons.append(f"Cuidado: Es eficaz contra ti (x{max_defensive_mult})")
         elif max_defensive_mult <= 0.5:
             score += 30
             reasons.append("Resistes sus ataques")
         elif max_defensive_mult == 0.0:
-            score += 100        # Inmunidad es oro
-            reasons.append("Eres inmune a sus ataques!")
+            score += 100
+            reasons.append("¡Eres inmune a sus ataques por Tipo!")
 
         
         # Velocidad
