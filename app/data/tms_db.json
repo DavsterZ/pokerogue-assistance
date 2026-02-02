@@ -1,0 +1,2855 @@
+{
+  "tm-swords-dance": {
+    "name": "TM006: Swords Dance",
+    "move_name": "Swords Dance",
+    "tm_number": "TM006",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat.",
+    "category": "tm"
+  },
+  "tm-cut": {
+    "name": "TM007: Cut",
+    "move_name": "Cut",
+    "tm_number": "TM007",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The target is cut with a scythe or claw.",
+    "category": "tm"
+  },
+  "tm-fly": {
+    "name": "TM008: Fly",
+    "move_name": "Fly",
+    "tm_number": "TM008",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user flies up into the sky and then strikes its target on the next turn.",
+    "category": "tm"
+  },
+  "tm-pin-missile": {
+    "name": "TM013: Pin Missile",
+    "move_name": "Pin Missile",
+    "tm_number": "TM013",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+    "category": "tm"
+  },
+  "tm-roar": {
+    "name": "TM014: Roar",
+    "move_name": "Roar",
+    "tm_number": "TM014",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+    "category": "tm"
+  },
+  "tm-low-kick": {
+    "name": "TM022: Low Kick",
+    "move_name": "Low Kick",
+    "tm_number": "TM022",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power.",
+    "category": "tm"
+  },
+  "tm-counter": {
+    "name": "TM023: Counter",
+    "move_name": "Counter",
+    "tm_number": "TM023",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+    "category": "tm"
+  },
+  "tm-fire-spin": {
+    "name": "TM026: Fire Spin",
+    "move_name": "Fire Spin",
+    "tm_number": "TM026",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+    "category": "tm"
+  },
+  "tm-thunder-wave": {
+    "name": "TM028: Thunder Wave",
+    "move_name": "Thunder Wave",
+    "tm_number": "TM028",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user launches a weak jolt of electricity that paralyzes the target.",
+    "category": "tm"
+  },
+  "tm-agility": {
+    "name": "TM034: Agility",
+    "move_name": "Agility",
+    "tm_number": "TM034",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
+    "category": "tm"
+  },
+  "tm-night-shade": {
+    "name": "TM035: Night Shade",
+    "move_name": "Night Shade",
+    "tm_number": "TM035",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",
+    "category": "tm"
+  },
+  "tm-screech": {
+    "name": "TM036: Screech",
+    "move_name": "Screech",
+    "tm_number": "TM036",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "An earsplitting screech harshly lowers the target's Defense stat.",
+    "category": "tm"
+  },
+  "tm-double-team": {
+    "name": "TM037: Double Team",
+    "move_name": "Double Team",
+    "tm_number": "TM037",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+    "category": "tm"
+  },
+  "tm-confuse-ray": {
+    "name": "TM038: Confuse Ray",
+    "move_name": "Confuse Ray",
+    "tm_number": "TM038",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The target is exposed to a sinister ray that triggers confusion.",
+    "category": "tm"
+  },
+  "tm-light-screen": {
+    "name": "TM039: Light Screen",
+    "move_name": "Light Screen",
+    "tm_number": "TM039",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+    "category": "tm"
+  },
+  "tm-haze": {
+    "name": "TM040: Haze",
+    "move_name": "Haze",
+    "tm_number": "TM040",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+    "category": "tm"
+  },
+  "tm-reflect": {
+    "name": "TM041: Reflect",
+    "move_name": "Reflect",
+    "tm_number": "TM041",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
+    "category": "tm"
+  },
+  "tm-focus-energy": {
+    "name": "TM042: Focus Energy",
+    "move_name": "Focus Energy",
+    "tm_number": "TM042",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user takes a deep breath and focuses so that critical hits land more easily.",
+    "category": "tm"
+  },
+  "tm-metronome": {
+    "name": "TM043: Metronome",
+    "move_name": "Metronome",
+    "tm_number": "TM043",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user waggles a finger and stimulates its brain into randomly using nearly any move.",
+    "category": "tm"
+  },
+  "tm-swift": {
+    "name": "TM047: Swift",
+    "move_name": "Swift",
+    "tm_number": "TM047",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
+    "category": "tm"
+  },
+  "tm-amnesia": {
+    "name": "TM048: Amnesia",
+    "move_name": "Amnesia",
+    "tm_number": "TM048",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user temporarily empties its mind to forget its concerns. This sharply raises the user's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-flash": {
+    "name": "TM051: Flash",
+    "move_name": "Flash",
+    "tm_number": "TM051",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user flashes a bright light that cuts the target's accuracy.",
+    "category": "tm"
+  },
+  "tm-rest": {
+    "name": "TM053: Rest",
+    "move_name": "Rest",
+    "tm_number": "TM053",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions.",
+    "category": "tm"
+  },
+  "tm-super-fang": {
+    "name": "TM056: Super Fang",
+    "move_name": "Super Fang",
+    "tm_number": "TM056",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user chomps hard on the target with its sharp front fangs. This cuts the target's HP in half.",
+    "category": "tm"
+  },
+  "tm-substitute": {
+    "name": "TM057: Substitute",
+    "move_name": "Substitute",
+    "tm_number": "TM057",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user creates a substitute for itself using some of its HP. The substitute serves as the user's decoy.",
+    "category": "tm"
+  },
+  "tm-snore": {
+    "name": "TM059: Snore",
+    "move_name": "Snore",
+    "tm_number": "TM059",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+    "category": "tm"
+  },
+  "tm-curse": {
+    "name": "TM060: Curse",
+    "move_name": "Curse",
+    "tm_number": "TM060",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A move that works differently for the Ghost type than for all other types.",
+    "category": "tm"
+  },
+  "tm-reversal": {
+    "name": "TM061: Reversal",
+    "move_name": "Reversal",
+    "tm_number": "TM061",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "An all-out attack that becomes more powerful the less HP the user has.",
+    "category": "tm"
+  },
+  "tm-spite": {
+    "name": "TM062: Spite",
+    "move_name": "Spite",
+    "tm_number": "TM062",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
+    "category": "tm"
+  },
+  "tm-protect": {
+    "name": "TM063: Protect",
+    "move_name": "Protect",
+    "tm_number": "TM063",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+    "category": "tm"
+  },
+  "tm-scary-face": {
+    "name": "TM064: Scary Face",
+    "move_name": "Scary Face",
+    "tm_number": "TM064",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+    "category": "tm"
+  },
+  "tm-mud-slap": {
+    "name": "TM066: Mud-Slap",
+    "move_name": "Mud-Slap",
+    "tm_number": "TM066",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+    "category": "tm"
+  },
+  "tm-spikes": {
+    "name": "TM067: Spikes",
+    "move_name": "Spikes",
+    "tm_number": "TM067",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user lays a trap of spikes at the opposing team's feet. The trap hurts Pokémon that switch into battle.",
+    "category": "tm"
+  },
+  "tm-sandstorm": {
+    "name": "TM070: Sandstorm",
+    "move_name": "Sandstorm",
+    "tm_number": "TM070",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types.",
+    "category": "tm"
+  },
+  "tm-endure": {
+    "name": "TM072: Endure",
+    "move_name": "Endure",
+    "tm_number": "TM072",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+    "category": "tm"
+  },
+  "tm-charm": {
+    "name": "TM073: Charm",
+    "move_name": "Charm",
+    "tm_number": "TM073",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",
+    "category": "tm"
+  },
+  "tm-false-swipe": {
+    "name": "TM074: False Swipe",
+    "move_name": "False Swipe",
+    "tm_number": "TM074",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+    "category": "tm"
+  },
+  "tm-swagger": {
+    "name": "TM075: Swagger",
+    "move_name": "Swagger",
+    "tm_number": "TM075",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user enrages and confuses the target. However, this also sharply raises the target's Attack stat.",
+    "category": "tm"
+  },
+  "tm-attract": {
+    "name": "TM077: Attract",
+    "move_name": "Attract",
+    "tm_number": "TM077",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+    "category": "tm"
+  },
+  "tm-sleep-talk": {
+    "name": "TM078: Sleep Talk",
+    "move_name": "Sleep Talk",
+    "tm_number": "TM078",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "While it is asleep, the user randomly uses one of the moves it knows.",
+    "category": "tm"
+  },
+  "tm-heal-bell": {
+    "name": "TM079: Heal Bell",
+    "move_name": "Heal Bell",
+    "tm_number": "TM079",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user makes a soothing bell chime to heal the status conditions of all the party Pokémon.",
+    "category": "tm"
+  },
+  "tm-frustration": {
+    "name": "TM081: Frustration",
+    "move_name": "Frustration",
+    "tm_number": "TM081",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This full-power attack grows more powerful the less the user likes its Trainer.",
+    "category": "tm"
+  },
+  "tm-safeguard": {
+    "name": "TM082: Safeguard",
+    "move_name": "Safeguard",
+    "tm_number": "TM082",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user creates a protective field that prevents status conditions for five turns.",
+    "category": "tm"
+  },
+  "tm-pain-split": {
+    "name": "TM083: Pain Split",
+    "move_name": "Pain Split",
+    "tm_number": "TM083",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user adds its HP to the target's HP, then equally shares the combined HP with the target.",
+    "category": "tm"
+  },
+  "tm-baton-pass": {
+    "name": "TM085: Baton Pass",
+    "move_name": "Baton Pass",
+    "tm_number": "TM085",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+    "category": "tm"
+  },
+  "tm-encore": {
+    "name": "TM086: Encore",
+    "move_name": "Encore",
+    "tm_number": "TM086",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user compels the target to keep using the move it encored for three turns.",
+    "category": "tm"
+  },
+  "tm-metal-claw": {
+    "name": "TM088: Metal Claw",
+    "move_name": "Metal Claw",
+    "tm_number": "TM088",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The target is raked with steel claws. This may also raise the user's Attack stat.",
+    "category": "tm"
+  },
+  "tm-rain-dance": {
+    "name": "TM091: Rain Dance",
+    "move_name": "Rain Dance",
+    "tm_number": "TM091",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user summons a heavy rain that falls for five turns, powering up Water-type moves. It lowers the power of Fire-type moves.",
+    "category": "tm"
+  },
+  "tm-sunny-day": {
+    "name": "TM092: Sunny Day",
+    "move_name": "Sunny Day",
+    "tm_number": "TM092",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves.",
+    "category": "tm"
+  },
+  "tm-psych-up": {
+    "name": "TM094: Psych Up",
+    "move_name": "Psych Up",
+    "tm_number": "TM094",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user hypnotizes itself into copying any stat change made by the target.",
+    "category": "tm"
+  },
+  "tm-rock-smash": {
+    "name": "TM097: Rock Smash",
+    "move_name": "Rock Smash",
+    "tm_number": "TM097",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks with a punch. This may also lower the target's Defense stat.",
+    "category": "tm"
+  },
+  "tm-whirlpool": {
+    "name": "TM098: Whirlpool",
+    "move_name": "Whirlpool",
+    "tm_number": "TM098",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user traps the target in a violent swirling whirlpool for four to five turns.",
+    "category": "tm"
+  },
+  "tm-beat-up": {
+    "name": "TM099: Beat Up",
+    "move_name": "Beat Up",
+    "tm_number": "TM099",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+    "category": "tm"
+  },
+  "tm-hail": {
+    "name": "TM102: Hail",
+    "move_name": "Hail",
+    "tm_number": "TM102",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.",
+    "category": "tm"
+  },
+  "tm-torment": {
+    "name": "TM103: Torment",
+    "move_name": "Torment",
+    "tm_number": "TM103",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+    "category": "tm"
+  },
+  "tm-will-o-wisp": {
+    "name": "TM104: Will-O-Wisp",
+    "move_name": "Will-O-Wisp",
+    "tm_number": "TM104",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user shoots a sinister flame at the target to inflict a burn.",
+    "category": "tm"
+  },
+  "tm-focus-punch": {
+    "name": "TM106: Focus Punch",
+    "move_name": "Focus Punch",
+    "tm_number": "TM106",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+    "category": "tm"
+  },
+  "tm-nature-power": {
+    "name": "TM107: Nature Power",
+    "move_name": "Nature Power",
+    "tm_number": "TM107",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This attack makes use of nature's power. Its effects vary depending on the user's environment.",
+    "category": "tm"
+  },
+  "tm-charge": {
+    "name": "TM108: Charge",
+    "move_name": "Charge",
+    "tm_number": "TM108",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-taunt": {
+    "name": "TM109: Taunt",
+    "move_name": "Taunt",
+    "tm_number": "TM109",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+    "category": "tm"
+  },
+  "tm-helping-hand": {
+    "name": "TM110: Helping Hand",
+    "move_name": "Helping Hand",
+    "tm_number": "TM110",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user assists an ally by boosting the power of that ally's attack.",
+    "category": "tm"
+  },
+  "tm-trick": {
+    "name": "TM111: Trick",
+    "move_name": "Trick",
+    "tm_number": "TM111",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user catches the target off guard and swaps its held item with its own.",
+    "category": "tm"
+  },
+  "tm-recycle": {
+    "name": "TM113: Recycle",
+    "move_name": "Recycle",
+    "tm_number": "TM113",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user recycles a held item that has been used in battle so it can be used again.",
+    "category": "tm"
+  },
+  "tm-endeavor": {
+    "name": "TM117: Endeavor",
+    "move_name": "Endeavor",
+    "tm_number": "TM117",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This attack move cuts down the target's HP to equal the user's HP.",
+    "category": "tm"
+  },
+  "tm-skill-swap": {
+    "name": "TM118: Skill Swap",
+    "move_name": "Skill Swap",
+    "tm_number": "TM118",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user employs its psychic power to exchange Abilities with the target.",
+    "category": "tm"
+  },
+  "tm-imprison": {
+    "name": "TM119: Imprison",
+    "move_name": "Imprison",
+    "tm_number": "TM119",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+    "category": "tm"
+  },
+  "tm-feather-dance": {
+    "name": "TM121: Feather Dance",
+    "move_name": "Feather Dance",
+    "tm_number": "TM121",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user covers the target's body with a mass of down that harshly lowers its Attack stat.",
+    "category": "tm"
+  },
+  "tm-weather-ball": {
+    "name": "TM126: Weather Ball",
+    "move_name": "Weather Ball",
+    "tm_number": "TM126",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This attack move varies in power and type depending on the weather.",
+    "category": "tm"
+  },
+  "tm-fake-tears": {
+    "name": "TM127: Fake Tears",
+    "move_name": "Fake Tears",
+    "tm_number": "TM127",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-air-cutter": {
+    "name": "TM128: Air Cutter",
+    "move_name": "Air Cutter",
+    "tm_number": "TM128",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user launches razor-like wind to slash opposing Pokémon. Critical hits land more easily.",
+    "category": "tm"
+  },
+  "tm-metal-sound": {
+    "name": "TM131: Metal Sound",
+    "move_name": "Metal Sound",
+    "tm_number": "TM131",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A horrible sound like scraping metal harshly lowers the target's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-cosmic-power": {
+    "name": "TM132: Cosmic Power",
+    "move_name": "Cosmic Power",
+    "tm_number": "TM132",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.",
+    "category": "tm"
+  },
+  "tm-sand-tomb": {
+    "name": "TM134: Sand Tomb",
+    "move_name": "Sand Tomb",
+    "tm_number": "TM134",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user traps the target inside a harshly raging sandstorm for four to five turns.",
+    "category": "tm"
+  },
+  "tm-bulk-up": {
+    "name": "TM142: Bulk Up",
+    "move_name": "Bulk Up",
+    "tm_number": "TM142",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+    "category": "tm"
+  },
+  "tm-water-pulse": {
+    "name": "TM153: Water Pulse",
+    "move_name": "Water Pulse",
+    "tm_number": "TM153",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+    "category": "tm"
+  },
+  "tm-gravity": {
+    "name": "TM155: Gravity",
+    "move_name": "Gravity",
+    "tm_number": "TM155",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This move enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Moves that involve flying can't be used.",
+    "category": "tm"
+  },
+  "tm-gyro-ball": {
+    "name": "TM156: Gyro Ball",
+    "move_name": "Gyro Ball",
+    "tm_number": "TM156",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move's power.",
+    "category": "tm"
+  },
+  "tm-payback": {
+    "name": "TM162: Payback",
+    "move_name": "Payback",
+    "tm_number": "TM162",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.",
+    "category": "tm"
+  },
+  "tm-assurance": {
+    "name": "TM163: Assurance",
+    "move_name": "Assurance",
+    "tm_number": "TM163",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "If the target has already taken some damage in the same turn, this attack's power is doubled.",
+    "category": "tm"
+  },
+  "tm-embargo": {
+    "name": "TM164: Embargo",
+    "move_name": "Embargo",
+    "tm_number": "TM164",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This move prevents the target from using its held item for five turns. Its Trainer is also prevented from using items on it.",
+    "category": "tm"
+  },
+  "tm-fling": {
+    "name": "TM165: Fling",
+    "move_name": "Fling",
+    "tm_number": "TM165",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user flings its held item at the target to attack. This move's power and effects depend on the item.",
+    "category": "tm"
+  },
+  "tm-power-swap": {
+    "name": "TM167: Power Swap",
+    "move_name": "Power Swap",
+    "tm_number": "TM167",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target.",
+    "category": "tm"
+  },
+  "tm-guard-swap": {
+    "name": "TM168: Guard Swap",
+    "move_name": "Guard Swap",
+    "tm_number": "TM168",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+    "category": "tm"
+  },
+  "tm-rock-polish": {
+    "name": "TM173: Rock Polish",
+    "move_name": "Rock Polish",
+    "tm_number": "TM173",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user polishes its body to reduce drag. This sharply raises the Speed stat.",
+    "category": "tm"
+  },
+  "tm-vacuum-wave": {
+    "name": "TM184: Vacuum Wave",
+    "move_name": "Vacuum Wave",
+    "tm_number": "TM184",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+    "category": "tm"
+  },
+  "tm-nasty-plot": {
+    "name": "TM190: Nasty Plot",
+    "move_name": "Nasty Plot",
+    "tm_number": "TM190",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user's Sp. Atk stat.",
+    "category": "tm"
+  },
+  "tm-defog": {
+    "name": "TM200: Defog",
+    "move_name": "Defog",
+    "tm_number": "TM200",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A strong wind blows away the target's barriers such as Reflect or Light Screen. This also lowers the target's evasiveness.",
+    "category": "tm"
+  },
+  "tm-trick-room": {
+    "name": "TM201: Trick Room",
+    "move_name": "Trick Room",
+    "tm_number": "TM201",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
+    "category": "tm"
+  },
+  "tm-stealth-rock": {
+    "name": "TM209: Stealth Rock",
+    "move_name": "Stealth Rock",
+    "tm_number": "TM209",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",
+    "category": "tm"
+  },
+  "tm-hone-claws": {
+    "name": "TM213: Hone Claws",
+    "move_name": "Hone Claws",
+    "tm_number": "TM213",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user sharpens its claws to boost its Attack stat and accuracy.",
+    "category": "tm"
+  },
+  "tm-wonder-room": {
+    "name": "TM214: Wonder Room",
+    "move_name": "Wonder Room",
+    "tm_number": "TM214",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for five turns.",
+    "category": "tm"
+  },
+  "tm-magic-room": {
+    "name": "TM217: Magic Room",
+    "move_name": "Magic Room",
+    "tm_number": "TM217",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.",
+    "category": "tm"
+  },
+  "tm-smack-down": {
+    "name": "TM218: Smack Down",
+    "move_name": "Smack Down",
+    "tm_number": "TM218",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user throws a stone or similar projectile to attack the target. A flying Pokémon will fall to the ground when it's hit.",
+    "category": "tm"
+  },
+  "tm-acid-spray": {
+    "name": "TM224: Acid Spray",
+    "move_name": "Acid Spray",
+    "tm_number": "TM224",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user spits fluid that works to melt the target. This harshly lowers the target's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-round": {
+    "name": "TM226: Round",
+    "move_name": "Round",
+    "tm_number": "TM226",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks the target with a song. Others can join in the Round to increase the power of the attack.",
+    "category": "tm"
+  },
+  "tm-echoed-voice": {
+    "name": "TM227: Echoed Voice",
+    "move_name": "Echoed Voice",
+    "tm_number": "TM227",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased.",
+    "category": "tm"
+  },
+  "tm-stored-power": {
+    "name": "TM228: Stored Power",
+    "move_name": "Stored Power",
+    "tm_number": "TM228",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks the target with stored power. The more the user's stats are raised, the greater the move's power.",
+    "category": "tm"
+  },
+  "tm-ally-switch": {
+    "name": "TM229: Ally Switch",
+    "move_name": "Ally Switch",
+    "tm_number": "TM229",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user teleports using a strange power and switches places with one of its allies.",
+    "category": "tm"
+  },
+  "tm-sky-drop": {
+    "name": "TM232: Sky Drop",
+    "move_name": "Sky Drop",
+    "tm_number": "TM232",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+    "category": "tm"
+  },
+  "tm-quash": {
+    "name": "TM234: Quash",
+    "move_name": "Quash",
+    "tm_number": "TM234",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user suppresses the target and makes its move go last.",
+    "category": "tm"
+  },
+  "tm-struggle-bug": {
+    "name": "TM241: Struggle Bug",
+    "move_name": "Struggle Bug",
+    "tm_number": "TM241",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "While resisting, the user attacks opposing Pokémon. This lowers the Sp. Atk stats of those hit.",
+    "category": "tm"
+  },
+  "tm-work-up": {
+    "name": "TM245: Work Up",
+    "move_name": "Work Up",
+    "tm_number": "TM245",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user is roused, and its Attack and Sp. Atk stats increase.",
+    "category": "tm"
+  },
+  "tm-snarl": {
+    "name": "TM254: Snarl",
+    "move_name": "Snarl",
+    "tm_number": "TM254",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.",
+    "category": "tm"
+  },
+  "tm-grassy-terrain": {
+    "name": "TM259: Grassy Terrain",
+    "move_name": "Grassy Terrain",
+    "tm_number": "TM259",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves.",
+    "category": "tm"
+  },
+  "tm-misty-terrain": {
+    "name": "TM260: Misty Terrain",
+    "move_name": "Misty Terrain",
+    "tm_number": "TM260",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+    "category": "tm"
+  },
+  "tm-confide": {
+    "name": "TM262: Confide",
+    "move_name": "Confide",
+    "tm_number": "TM262",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat.",
+    "category": "tm"
+  },
+  "tm-eerie-impulse": {
+    "name": "TM264: Eerie Impulse",
+    "move_name": "Eerie Impulse",
+    "tm_number": "TM264",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat.",
+    "category": "tm"
+  },
+  "tm-venom-drench": {
+    "name": "TM265: Venom Drench",
+    "move_name": "Venom Drench",
+    "tm_number": "TM265",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
+    "category": "tm"
+  },
+  "tm-electric-terrain": {
+    "name": "TM266: Electric Terrain",
+    "move_name": "Electric Terrain",
+    "tm_number": "TM266",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep.",
+    "category": "tm"
+  },
+  "tm-infestation": {
+    "name": "TM268: Infestation",
+    "move_name": "Infestation",
+    "tm_number": "TM268",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The target is infested and attacked for four to five turns. The target can't flee during this time.",
+    "category": "tm"
+  },
+  "tm-psychic-terrain": {
+    "name": "TM275: Psychic Terrain",
+    "move_name": "Psychic Terrain",
+    "tm_number": "TM275",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+    "category": "tm"
+  },
+  "tm-speed-swap": {
+    "name": "TM277: Speed Swap",
+    "move_name": "Speed Swap",
+    "tm_number": "TM277",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user exchanges Speed stats with the target.",
+    "category": "tm"
+  },
+  "tm-brutal-swing": {
+    "name": "TM279: Brutal Swing",
+    "move_name": "Brutal Swing",
+    "tm_number": "TM279",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user swings its body around violently to inflict damage on everything in its vicinity.",
+    "category": "tm"
+  },
+  "tm-aurora-veil": {
+    "name": "TM280: Aurora Veil",
+    "move_name": "Aurora Veil",
+    "tm_number": "TM280",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "This move reduces damage from physical and special moves for five turns. This can be used only when it is snowing.",
+    "category": "tm"
+  },
+  "tm-steel-roller": {
+    "name": "TM288: Steel Roller",
+    "move_name": "Steel Roller",
+    "tm_number": "TM288",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks while destroying the terrain. This move fails when the ground hasn't turned into a terrain.",
+    "category": "tm"
+  },
+  "tm-misty-explosion": {
+    "name": "TM291: Misty Explosion",
+    "move_name": "Misty Explosion",
+    "tm_number": "TM291",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks everything around it and faints upon using this move. This move's power is increased on Misty Terrain.",
+    "category": "tm"
+  },
+  "tm-grassy-glide": {
+    "name": "TM292: Grassy Glide",
+    "move_name": "Grassy Glide",
+    "tm_number": "TM292",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",
+    "category": "tm"
+  },
+  "tm-rising-voltage": {
+    "name": "TM293: Rising Voltage",
+    "move_name": "Rising Voltage",
+    "tm_number": "TM293",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks with electric voltage rising from the ground. This move's power doubles when the target is on Electric Terrain.",
+    "category": "tm"
+  },
+  "tm-terrain-pulse": {
+    "name": "TM294: Terrain Pulse",
+    "move_name": "Terrain Pulse",
+    "tm_number": "TM294",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user utilizes the power of the terrain to attack. This move's type and power changes depending on the terrain when it's used.",
+    "category": "tm"
+  },
+  "tm-corrosive-gas": {
+    "name": "TM299: Corrosive Gas",
+    "move_name": "Corrosive Gas",
+    "tm_number": "TM299",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user surrounds everything around it with highly acidic gas and melts away items they hold.",
+    "category": "tm"
+  },
+  "tm-coaching": {
+    "name": "TM300: Coaching",
+    "move_name": "Coaching",
+    "tm_number": "TM300",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.",
+    "category": "tm"
+  },
+  "tm-flip-turn": {
+    "name": "TM301: Flip Turn",
+    "move_name": "Flip Turn",
+    "tm_number": "TM301",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    "category": "tm"
+  },
+  "tm-triple-axel": {
+    "name": "TM302: Triple Axel",
+    "move_name": "Triple Axel",
+    "tm_number": "TM302",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "A consecutive three-kick attack that becomes more powerful with each successful hit.",
+    "category": "tm"
+  },
+  "tm-dual-wingbeat": {
+    "name": "TM303: Dual Wingbeat",
+    "move_name": "Dual Wingbeat",
+    "tm_number": "TM303",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user slams the target with its wings. The target is hit twice in a row.",
+    "category": "tm"
+  },
+  "tm-snowscape": {
+    "name": "TM307: Snowscape",
+    "move_name": "Snowscape",
+    "tm_number": "TM307",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types.",
+    "category": "tm"
+  },
+  "tm-pounce": {
+    "name": "TM308: Pounce",
+    "move_name": "Pounce",
+    "tm_number": "TM308",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks by pouncing on the target. This also lowers the target's Speed stat.",
+    "category": "tm"
+  },
+  "tm-trailblaze": {
+    "name": "TM309: Trailblaze",
+    "move_name": "Trailblaze",
+    "tm_number": "TM309",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.",
+    "category": "tm"
+  },
+  "tm-chilling-water": {
+    "name": "TM310: Chilling Water",
+    "move_name": "Chilling Water",
+    "tm_number": "TM310",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat.",
+    "category": "tm"
+  },
+  "tm-dragon-cheer": {
+    "name": "TM312: Dragon Cheer",
+    "move_name": "Dragon Cheer",
+    "tm_number": "TM312",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user raises its allies' morale with a draconic cry so that their future attacks have a heightened chance of landing critical hits. This rouses Dragon types more.",
+    "category": "tm"
+  },
+  "tm-upper-hand": {
+    "name": "TM317: Upper Hand",
+    "move_name": "Upper Hand",
+    "tm_number": "TM317",
+    "type": "Normal",
+    "rarity": "Common",
+    "description": "The user reacts to the target's movement and strikes with the heel of its palm, making the target flinch. This move fails if the target is not readying a priority move.",
+    "category": "tm"
+  },
+  "tm-mega-punch": {
+    "name": "TM001: Mega Punch",
+    "move_name": "Mega Punch",
+    "tm_number": "TM001",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is slugged by a punch thrown with muscle-packed power.",
+    "category": "tm"
+  },
+  "tm-fire-punch": {
+    "name": "TM003: Fire Punch",
+    "move_name": "Fire Punch",
+    "tm_number": "TM003",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is punched with a fiery fist. This may also leave the target with a burn.",
+    "category": "tm"
+  },
+  "tm-ice-punch": {
+    "name": "TM004: Ice Punch",
+    "move_name": "Ice Punch",
+    "tm_number": "TM004",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is punched with an icy fist. This may also leave the target frozen.",
+    "category": "tm"
+  },
+  "tm-thunder-punch": {
+    "name": "TM005: Thunder Punch",
+    "move_name": "Thunder Punch",
+    "tm_number": "TM005",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is punched with an electrified fist. This may also leave the target with paralysis.",
+    "category": "tm"
+  },
+  "tm-mega-kick": {
+    "name": "TM009: Mega Kick",
+    "move_name": "Mega Kick",
+    "tm_number": "TM009",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is attacked by a kick launched with muscle-packed power.",
+    "category": "tm"
+  },
+  "tm-body-slam": {
+    "name": "TM010: Body Slam",
+    "move_name": "Body Slam",
+    "tm_number": "TM010",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user drops onto the target with its full body weight. This may also leave the target with paralysis.",
+    "category": "tm"
+  },
+  "tm-take-down": {
+    "name": "TM011: Take Down",
+    "move_name": "Take Down",
+    "tm_number": "TM011",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "A reckless, full-body charge attack for slamming into the target. This also damages the user a little.",
+    "category": "tm"
+  },
+  "tm-psybeam": {
+    "name": "TM020: Psybeam",
+    "move_name": "Psybeam",
+    "tm_number": "TM020",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is attacked with a peculiar ray. This may also leave the target confused.",
+    "category": "tm"
+  },
+  "tm-strength": {
+    "name": "TM024: Strength",
+    "move_name": "Strength",
+    "tm_number": "TM024",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is slugged with a punch thrown at maximum power.",
+    "category": "tm"
+  },
+  "tm-dig": {
+    "name": "TM031: Dig",
+    "move_name": "Dig",
+    "tm_number": "TM031",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user burrows into the ground, then attacks on the next turn.",
+    "category": "tm"
+  },
+  "tm-toxic": {
+    "name": "TM032: Toxic",
+    "move_name": "Toxic",
+    "tm_number": "TM032",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+    "category": "tm"
+  },
+  "tm-self-destruct": {
+    "name": "TM044: Self-Destruct",
+    "move_name": "Self-Destruct",
+    "tm_number": "TM044",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
+    "category": "tm"
+  },
+  "tm-waterfall": {
+    "name": "TM046: Waterfall",
+    "move_name": "Waterfall",
+    "tm_number": "TM046",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user charges at the target and may make it flinch.",
+    "category": "tm"
+  },
+  "tm-dream-eater": {
+    "name": "TM049: Dream Eater",
+    "move_name": "Dream Eater",
+    "tm_number": "TM049",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user eats the dreams of a sleeping target. The user's HP is restored by half the damage taken by the target.",
+    "category": "tm"
+  },
+  "tm-explosion": {
+    "name": "TM052: Explosion",
+    "move_name": "Explosion",
+    "tm_number": "TM052",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.",
+    "category": "tm"
+  },
+  "tm-rock-slide": {
+    "name": "TM054: Rock Slide",
+    "move_name": "Rock Slide",
+    "tm_number": "TM054",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+    "category": "tm"
+  },
+  "tm-thief": {
+    "name": "TM058: Thief",
+    "move_name": "Thief",
+    "tm_number": "TM058",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks and has a 30% chance to steal the target's held item simultaneously.",
+    "category": "tm"
+  },
+  "tm-icy-wind": {
+    "name": "TM068: Icy Wind",
+    "move_name": "Icy Wind",
+    "tm_number": "TM068",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks with a gust of chilled air. This also lowers opposing Pokémon's Speed stats.",
+    "category": "tm"
+  },
+  "tm-steel-wing": {
+    "name": "TM076: Steel Wing",
+    "move_name": "Steel Wing",
+    "tm_number": "TM076",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is hit with wings of steel. This may also raise the user's Defense stat.",
+    "category": "tm"
+  },
+  "tm-iron-tail": {
+    "name": "TM087: Iron Tail",
+    "move_name": "Iron Tail",
+    "tm_number": "TM087",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+    "category": "tm"
+  },
+  "tm-synthesis": {
+    "name": "TM089: Synthesis",
+    "move_name": "Synthesis",
+    "tm_number": "TM089",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user restores its own HP. The amount of HP regained varies with the weather.",
+    "category": "tm"
+  },
+  "tm-hidden-power": {
+    "name": "TM090: Hidden Power",
+    "move_name": "Hidden Power",
+    "tm_number": "TM090",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "A unique attack that varies in type depending on the Pokémon using it.",
+    "category": "tm"
+  },
+  "tm-crunch": {
+    "name": "TM093: Crunch",
+    "move_name": "Crunch",
+    "tm_number": "TM093",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user crunches up the target with sharp fangs. This may also lower the target's Defense stat.",
+    "category": "tm"
+  },
+  "tm-future-sight": {
+    "name": "TM096: Future Sight",
+    "move_name": "Future Sight",
+    "tm_number": "TM096",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "Two turns after this move is used, a hunk of psychic energy attacks the target.",
+    "category": "tm"
+  },
+  "tm-uproar": {
+    "name": "TM100: Uproar",
+    "move_name": "Uproar",
+    "tm_number": "TM100",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+    "category": "tm"
+  },
+  "tm-facade": {
+    "name": "TM105: Facade",
+    "move_name": "Facade",
+    "tm_number": "TM105",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "This attack move doubles its power if the user is poisoned, burned, or paralyzed.",
+    "category": "tm"
+  },
+  "tm-revenge": {
+    "name": "TM114: Revenge",
+    "move_name": "Revenge",
+    "tm_number": "TM114",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "This attack move's power is doubled if the user has been hurt by the opponent in the same turn.",
+    "category": "tm"
+  },
+  "tm-brick-break": {
+    "name": "TM115: Brick Break",
+    "move_name": "Brick Break",
+    "tm_number": "TM115",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+    "category": "tm"
+  },
+  "tm-dive": {
+    "name": "TM120: Dive",
+    "move_name": "Dive",
+    "tm_number": "TM120",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "Diving on the first turn, the user floats up and attacks on the next turn.",
+    "category": "tm"
+  },
+  "tm-blaze-kick": {
+    "name": "TM122: Blaze Kick",
+    "move_name": "Blaze Kick",
+    "tm_number": "TM122",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user launches a kick that lands a critical hit more easily. This may also leave the target with a burn.",
+    "category": "tm"
+  },
+  "tm-rock-tomb": {
+    "name": "TM130: Rock Tomb",
+    "move_name": "Rock Tomb",
+    "tm_number": "TM130",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "Boulders are hurled at the target. This also lowers the target's Speed stat by preventing its movement.",
+    "category": "tm"
+  },
+  "tm-signal-beam": {
+    "name": "TM133: Signal Beam",
+    "move_name": "Signal Beam",
+    "tm_number": "TM133",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks with a sinister beam of light. This may also confuse the target.",
+    "category": "tm"
+  },
+  "tm-muddy-water": {
+    "name": "TM135: Muddy Water",
+    "move_name": "Muddy Water",
+    "tm_number": "TM135",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.",
+    "category": "tm"
+  },
+  "tm-bullet-seed": {
+    "name": "TM136: Bullet Seed",
+    "move_name": "Bullet Seed",
+    "tm_number": "TM136",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user forcefully shoots seeds at the target two to five times in a row.",
+    "category": "tm"
+  },
+  "tm-aerial-ace": {
+    "name": "TM137: Aerial Ace",
+    "move_name": "Aerial Ace",
+    "tm_number": "TM137",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user confounds the target with speed, then slashes. This attack never misses.",
+    "category": "tm"
+  },
+  "tm-icicle-spear": {
+    "name": "TM138: Icicle Spear",
+    "move_name": "Icicle Spear",
+    "tm_number": "TM138",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user launches sharp icicles at the target two to five times in a row.",
+    "category": "tm"
+  },
+  "tm-iron-defense": {
+    "name": "TM139: Iron Defense",
+    "move_name": "Iron Defense",
+    "tm_number": "TM139",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user hardens its body's surface like iron, sharply raising its Defense stat.",
+    "category": "tm"
+  },
+  "tm-dragon-claw": {
+    "name": "TM140: Dragon Claw",
+    "move_name": "Dragon Claw",
+    "tm_number": "TM140",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user slashes the target with huge sharp claws.",
+    "category": "tm"
+  },
+  "tm-bounce": {
+    "name": "TM143: Bounce",
+    "move_name": "Bounce",
+    "tm_number": "TM143",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",
+    "category": "tm"
+  },
+  "tm-mud-shot": {
+    "name": "TM144: Mud Shot",
+    "move_name": "Mud Shot",
+    "tm_number": "TM144",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks by hurling a blob of mud at the target. This also lowers the target's Speed stat.",
+    "category": "tm"
+  },
+  "tm-poison-tail": {
+    "name": "TM145: Poison Tail",
+    "move_name": "Poison Tail",
+    "tm_number": "TM145",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user hits the target with its tail. This may also poison the target. Critical hits land more easily.",
+    "category": "tm"
+  },
+  "tm-covet": {
+    "name": "TM146: Covet",
+    "move_name": "Covet",
+    "tm_number": "TM146",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user endearingly approaches the target, then has a 30% chance to steal the target's held item.",
+    "category": "tm"
+  },
+  "tm-magical-leaf": {
+    "name": "TM147: Magical Leaf",
+    "move_name": "Magical Leaf",
+    "tm_number": "TM147",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user scatters curious leaves that chase the target. This attack never misses.",
+    "category": "tm"
+  },
+  "tm-calm-mind": {
+    "name": "TM148: Calm Mind",
+    "move_name": "Calm Mind",
+    "tm_number": "TM148",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
+    "category": "tm"
+  },
+  "tm-dragon-dance": {
+    "name": "TM150: Dragon Dance",
+    "move_name": "Dragon Dance",
+    "tm_number": "TM150",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
+    "category": "tm"
+  },
+  "tm-rock-blast": {
+    "name": "TM151: Rock Blast",
+    "move_name": "Rock Blast",
+    "tm_number": "TM151",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user hurls hard rocks at the target. Two to five rocks are launched in a row.",
+    "category": "tm"
+  },
+  "tm-shock-wave": {
+    "name": "TM152: Shock Wave",
+    "move_name": "Shock Wave",
+    "tm_number": "TM152",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+    "category": "tm"
+  },
+  "tm-roost": {
+    "name": "TM154: Roost",
+    "move_name": "Roost",
+    "tm_number": "TM154",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user lands and rests its body. This move restores the user's HP by up to half of its max HP.",
+    "category": "tm"
+  },
+  "tm-brine": {
+    "name": "TM157: Brine",
+    "move_name": "Brine",
+    "tm_number": "TM157",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "If the target's HP is half or less, this attack will hit with double the power.",
+    "category": "tm"
+  },
+  "tm-pluck": {
+    "name": "TM158: Pluck",
+    "move_name": "Pluck",
+    "tm_number": "TM158",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.",
+    "category": "tm"
+  },
+  "tm-tailwind": {
+    "name": "TM159: Tailwind",
+    "move_name": "Tailwind",
+    "tm_number": "TM159",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user whips up a turbulent whirlwind that ups the Speed stats of the user and its allies for four turns.",
+    "category": "tm"
+  },
+  "tm-u-turn": {
+    "name": "TM160: U-Turn",
+    "move_name": "U-Turn",
+    "tm_number": "TM160",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    "category": "tm"
+  },
+  "tm-gastro-acid": {
+    "name": "TM166: Gastro Acid",
+    "move_name": "Gastro Acid",
+    "tm_number": "TM166",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target's Ability.",
+    "category": "tm"
+  },
+  "tm-worry-seed": {
+    "name": "TM169: Worry Seed",
+    "move_name": "Worry Seed",
+    "tm_number": "TM169",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "A seed that causes worry is planted on the target. It prevents sleep by making the target's Ability Insomnia.",
+    "category": "tm"
+  },
+  "tm-toxic-spikes": {
+    "name": "TM170: Toxic Spikes",
+    "move_name": "Toxic Spikes",
+    "tm_number": "TM170",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle.",
+    "category": "tm"
+  },
+  "tm-aura-sphere": {
+    "name": "TM172: Aura Sphere",
+    "move_name": "Aura Sphere",
+    "tm_number": "TM172",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
+    "category": "tm"
+  },
+  "tm-poison-jab": {
+    "name": "TM174: Poison Jab",
+    "move_name": "Poison Jab",
+    "tm_number": "TM174",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target.",
+    "category": "tm"
+  },
+  "tm-dark-pulse": {
+    "name": "TM175: Dark Pulse",
+    "move_name": "Dark Pulse",
+    "tm_number": "TM175",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
+    "category": "tm"
+  },
+  "tm-aqua-tail": {
+    "name": "TM176: Aqua Tail",
+    "move_name": "Aqua Tail",
+    "tm_number": "TM176",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
+    "category": "tm"
+  },
+  "tm-seed-bomb": {
+    "name": "TM177: Seed Bomb",
+    "move_name": "Seed Bomb",
+    "tm_number": "TM177",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user slams a barrage of hard-shelled seeds down on the target from above.",
+    "category": "tm"
+  },
+  "tm-air-slash": {
+    "name": "TM178: Air Slash",
+    "move_name": "Air Slash",
+    "tm_number": "TM178",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+    "category": "tm"
+  },
+  "tm-x-scissor": {
+    "name": "TM179: X-Scissor",
+    "move_name": "X-Scissor",
+    "tm_number": "TM179",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+    "category": "tm"
+  },
+  "tm-bug-buzz": {
+    "name": "TM180: Bug Buzz",
+    "move_name": "Bug Buzz",
+    "tm_number": "TM180",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user generates a damaging sound wave by vibration. This may also lower the target's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-dragon-pulse": {
+    "name": "TM181: Dragon Pulse",
+    "move_name": "Dragon Pulse",
+    "tm_number": "TM181",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is attacked with a shock wave generated by the user's gaping mouth.",
+    "category": "tm"
+  },
+  "tm-power-gem": {
+    "name": "TM182: Power Gem",
+    "move_name": "Power Gem",
+    "tm_number": "TM182",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+    "category": "tm"
+  },
+  "tm-drain-punch": {
+    "name": "TM183: Drain Punch",
+    "move_name": "Drain Punch",
+    "tm_number": "TM183",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "An energy-draining punch. The user's HP is restored by half the damage taken by the target.",
+    "category": "tm"
+  },
+  "tm-focus-blast": {
+    "name": "TM185: Focus Blast",
+    "move_name": "Focus Blast",
+    "tm_number": "TM185",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-energy-ball": {
+    "name": "TM186: Energy Ball",
+    "move_name": "Energy Ball",
+    "tm_number": "TM186",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-giga-impact": {
+    "name": "TM189: Giga Impact",
+    "move_name": "Giga Impact",
+    "tm_number": "TM189",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+    "category": "tm"
+  },
+  "tm-avalanche": {
+    "name": "TM191: Avalanche",
+    "move_name": "Avalanche",
+    "tm_number": "TM191",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The power of this attack move is doubled if the user has been hurt by the target in the same turn.",
+    "category": "tm"
+  },
+  "tm-shadow-claw": {
+    "name": "TM192: Shadow Claw",
+    "move_name": "Shadow Claw",
+    "tm_number": "TM192",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+    "category": "tm"
+  },
+  "tm-thunder-fang": {
+    "name": "TM193: Thunder Fang",
+    "move_name": "Thunder Fang",
+    "tm_number": "TM193",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.",
+    "category": "tm"
+  },
+  "tm-ice-fang": {
+    "name": "TM194: Ice Fang",
+    "move_name": "Ice Fang",
+    "tm_number": "TM194",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+    "category": "tm"
+  },
+  "tm-fire-fang": {
+    "name": "TM195: Fire Fang",
+    "move_name": "Fire Fang",
+    "tm_number": "TM195",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.",
+    "category": "tm"
+  },
+  "tm-psycho-cut": {
+    "name": "TM196: Psycho Cut",
+    "move_name": "Psycho Cut",
+    "tm_number": "TM196",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user tears at the target with blades formed by psychic power. Critical hits land more easily.",
+    "category": "tm"
+  },
+  "tm-zen-headbutt": {
+    "name": "TM197: Zen Headbutt",
+    "move_name": "Zen Headbutt",
+    "tm_number": "TM197",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+    "category": "tm"
+  },
+  "tm-flash-cannon": {
+    "name": "TM198: Flash Cannon",
+    "move_name": "Flash Cannon",
+    "tm_number": "TM198",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user gathers all its light energy and releases it all at once. This may also lower the target's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-rock-climb": {
+    "name": "TM199: Rock Climb",
+    "move_name": "Rock Climb",
+    "tm_number": "TM199",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks the target by smashing into it with incredible force. This may also confuse the target.",
+    "category": "tm"
+  },
+  "tm-cross-poison": {
+    "name": "TM205: Cross Poison",
+    "move_name": "Cross Poison",
+    "tm_number": "TM205",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.",
+    "category": "tm"
+  },
+  "tm-iron-head": {
+    "name": "TM207: Iron Head",
+    "move_name": "Iron Head",
+    "tm_number": "TM207",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+    "category": "tm"
+  },
+  "tm-bug-bite": {
+    "name": "TM211: Bug Bite",
+    "move_name": "Bug Bite",
+    "tm_number": "TM211",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+    "category": "tm"
+  },
+  "tm-charge-beam": {
+    "name": "TM212: Charge Beam",
+    "move_name": "Charge Beam",
+    "tm_number": "TM212",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks the target with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+    "category": "tm"
+  },
+  "tm-psyshock": {
+    "name": "TM215: Psyshock",
+    "move_name": "Psyshock",
+    "tm_number": "TM215",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+    "category": "tm"
+  },
+  "tm-venoshock": {
+    "name": "TM216: Venoshock",
+    "move_name": "Venoshock",
+    "tm_number": "TM216",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user drenches the target in a special poisonous liquid. This move's power is doubled if the target is poisoned.",
+    "category": "tm"
+  },
+  "tm-heavy-slam": {
+    "name": "TM220: Heavy Slam",
+    "move_name": "Heavy Slam",
+    "tm_number": "TM220",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power.",
+    "category": "tm"
+  },
+  "tm-electro-ball": {
+    "name": "TM221: Electro Ball",
+    "move_name": "Electro Ball",
+    "tm_number": "TM221",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the move's power.",
+    "category": "tm"
+  },
+  "tm-flame-charge": {
+    "name": "TM222: Flame Charge",
+    "move_name": "Flame Charge",
+    "tm_number": "TM222",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "Cloaking itself in flame, the user attacks the target. Then, building up more power, the user raises its Speed stat.",
+    "category": "tm"
+  },
+  "tm-low-sweep": {
+    "name": "TM223: Low Sweep",
+    "move_name": "Low Sweep",
+    "tm_number": "TM223",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user makes a swift attack on the target's legs, which lowers the target's Speed stat.",
+    "category": "tm"
+  },
+  "tm-scald": {
+    "name": "TM230: Scald",
+    "move_name": "Scald",
+    "tm_number": "TM230",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+    "category": "tm"
+  },
+  "tm-hex": {
+    "name": "TM231: Hex",
+    "move_name": "Hex",
+    "tm_number": "TM231",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "This relentless attack does massive damage to a target affected by status conditions.",
+    "category": "tm"
+  },
+  "tm-incinerate": {
+    "name": "TM233: Incinerate",
+    "move_name": "Incinerate",
+    "tm_number": "TM233",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+    "category": "tm"
+  },
+  "tm-acrobatics": {
+    "name": "TM235: Acrobatics",
+    "move_name": "Acrobatics",
+    "tm_number": "TM235",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user nimbly strikes the target. The fewer held items, the higher the damage it inflicts.",
+    "category": "tm"
+  },
+  "tm-retaliate": {
+    "name": "TM236: Retaliate",
+    "move_name": "Retaliate",
+    "tm_number": "TM236",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move's power is increased.",
+    "category": "tm"
+  },
+  "tm-water-pledge": {
+    "name": "TM237: Water Pledge",
+    "move_name": "Water Pledge",
+    "tm_number": "TM237",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "A column of water hits the target. When used with its fire equivalent, its power increases and a rainbow appears.",
+    "category": "tm"
+  },
+  "tm-fire-pledge": {
+    "name": "TM238: Fire Pledge",
+    "move_name": "Fire Pledge",
+    "tm_number": "TM238",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "A column of fire hits the target. When used with its grass equivalent, its power increases and a vast sea of fire appears.",
+    "category": "tm"
+  },
+  "tm-grass-pledge": {
+    "name": "TM239: Grass Pledge",
+    "move_name": "Grass Pledge",
+    "tm_number": "TM239",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "A column of grass hits the target. When used with its water equivalent, its power increases and a vast swamp appears.",
+    "category": "tm"
+  },
+  "tm-volt-switch": {
+    "name": "TM240: Volt Switch",
+    "move_name": "Volt Switch",
+    "tm_number": "TM240",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    "category": "tm"
+  },
+  "tm-bulldoze": {
+    "name": "TM242: Bulldoze",
+    "move_name": "Bulldoze",
+    "tm_number": "TM242",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit.",
+    "category": "tm"
+  },
+  "tm-frost-breath": {
+    "name": "TM243: Frost Breath",
+    "move_name": "Frost Breath",
+    "tm_number": "TM243",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user blows its cold breath on the target. This attack always results in a critical hit.",
+    "category": "tm"
+  },
+  "tm-dragon-tail": {
+    "name": "TM244: Dragon Tail",
+    "move_name": "Dragon Tail",
+    "tm_number": "TM244",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is knocked away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+    "category": "tm"
+  },
+  "tm-electroweb": {
+    "name": "TM246: Electroweb",
+    "move_name": "Electroweb",
+    "tm_number": "TM246",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stats.",
+    "category": "tm"
+  },
+  "tm-wild-charge": {
+    "name": "TM247: Wild Charge",
+    "move_name": "Wild Charge",
+    "tm_number": "TM247",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little.",
+    "category": "tm"
+  },
+  "tm-drill-run": {
+    "name": "TM248: Drill Run",
+    "move_name": "Drill Run",
+    "tm_number": "TM248",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+    "category": "tm"
+  },
+  "tm-razor-shell": {
+    "name": "TM250: Razor Shell",
+    "move_name": "Razor Shell",
+    "tm_number": "TM250",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user cuts its target with sharp shells. This may also lower the target's Defense stat.",
+    "category": "tm"
+  },
+  "tm-heat-crash": {
+    "name": "TM251: Heat Crash",
+    "move_name": "Heat Crash",
+    "tm_number": "TM251",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move's power.",
+    "category": "tm"
+  },
+  "tm-tail-slap": {
+    "name": "TM252: Tail Slap",
+    "move_name": "Tail Slap",
+    "tm_number": "TM252",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks by striking the target with its hard tail. It hits the target two to five times in a row.",
+    "category": "tm"
+  },
+  "tm-petal-blizzard": {
+    "name": "TM256: Petal Blizzard",
+    "move_name": "Petal Blizzard",
+    "tm_number": "TM256",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user stirs up a violent petal blizzard and attacks everything around it.",
+    "category": "tm"
+  },
+  "tm-disarming-voice": {
+    "name": "TM257: Disarming Voice",
+    "move_name": "Disarming Voice",
+    "tm_number": "TM257",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.",
+    "category": "tm"
+  },
+  "tm-draining-kiss": {
+    "name": "TM258: Draining Kiss",
+    "move_name": "Draining Kiss",
+    "tm_number": "TM258",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage taken by the target.",
+    "category": "tm"
+  },
+  "tm-play-rough": {
+    "name": "TM261: Play Rough",
+    "move_name": "Play Rough",
+    "tm_number": "TM261",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user plays rough with the target and attacks it. This may also lower the target's Attack stat.",
+    "category": "tm"
+  },
+  "tm-mystical-fire": {
+    "name": "TM263: Mystical Fire",
+    "move_name": "Mystical Fire",
+    "tm_number": "TM263",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.",
+    "category": "tm"
+  },
+  "tm-power-up-punch": {
+    "name": "TM269: Power-Up Punch",
+    "move_name": "Power-Up Punch",
+    "tm_number": "TM269",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat.",
+    "category": "tm"
+  },
+  "tm-darkest-lariat": {
+    "name": "TM270: Darkest Lariat",
+    "move_name": "Darkest Lariat",
+    "tm_number": "TM270",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user swings both arms and hits the target. The target's stat changes don't affect this attack's damage.",
+    "category": "tm"
+  },
+  "tm-throat-chop": {
+    "name": "TM273: Throat Chop",
+    "move_name": "Throat Chop",
+    "tm_number": "TM273",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks the target's throat, and the resultant suffering prevents the target from using moves that emit sound for two turns.",
+    "category": "tm"
+  },
+  "tm-lunge": {
+    "name": "TM276: Lunge",
+    "move_name": "Lunge",
+    "tm_number": "TM276",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user makes a lunge at the target, attacking with full force. This also lowers the target's Attack stat.",
+    "category": "tm"
+  },
+  "tm-smart-strike": {
+    "name": "TM278: Smart Strike",
+    "move_name": "Smart Strike",
+    "tm_number": "TM278",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user stabs the target with a sharp horn. This attack never misses.",
+    "category": "tm"
+  },
+  "tm-psychic-fangs": {
+    "name": "TM281: Psychic Fangs",
+    "move_name": "Psychic Fangs",
+    "tm_number": "TM281",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user bites the target with its psychic capabilities. This can also destroy Light Screen and Reflect.",
+    "category": "tm"
+  },
+  "tm-stomping-tantrum": {
+    "name": "TM282: Stomping Tantrum",
+    "move_name": "Stomping Tantrum",
+    "tm_number": "TM282",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "Driven by frustration, the user attacks the target. If the user's previous move has failed, the power of this move doubles.",
+    "category": "tm"
+  },
+  "tm-breaking-swipe": {
+    "name": "TM285: Breaking Swipe",
+    "move_name": "Breaking Swipe",
+    "tm_number": "TM285",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user swings its tough tail wildly and attacks opposing Pokémon. This also lowers their Attack stats.",
+    "category": "tm"
+  },
+  "tm-expanding-force": {
+    "name": "TM287: Expanding Force",
+    "move_name": "Expanding Force",
+    "tm_number": "TM287",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks the target with its psychic power. This move's power goes up and damages all opposing Pokémon on Psychic Terrain.",
+    "category": "tm"
+  },
+  "tm-meteor-beam": {
+    "name": "TM290: Meteor Beam",
+    "move_name": "Meteor Beam",
+    "tm_number": "TM290",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "In this two-turn attack, the user gathers space power and boosts its Sp. Atk stat, then attacks the target on the next turn.",
+    "category": "tm"
+  },
+  "tm-skitter-smack": {
+    "name": "TM295: Skitter Smack",
+    "move_name": "Skitter Smack",
+    "tm_number": "TM295",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.",
+    "category": "tm"
+  },
+  "tm-burning-jealousy": {
+    "name": "TM296: Burning Jealousy",
+    "move_name": "Burning Jealousy",
+    "tm_number": "TM296",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks with energy from jealousy. This leaves all opposing Pokémon that have had their stats boosted during the turn with a burn.",
+    "category": "tm"
+  },
+  "tm-lash-out": {
+    "name": "TM297: Lash Out",
+    "move_name": "Lash Out",
+    "tm_number": "TM297",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user lashes out to vent its frustration toward the target. If the user's stats were lowered during this turn, the power of this move is doubled.",
+    "category": "tm"
+  },
+  "tm-scorching-sands": {
+    "name": "TM304: Scorching Sands",
+    "move_name": "Scorching Sands",
+    "tm_number": "TM304",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user throws scorching sand at the target to attack. This may also leave the target with a burn.",
+    "category": "tm"
+  },
+  "tm-tera-blast": {
+    "name": "TM305: Tera Blast",
+    "move_name": "Tera Blast",
+    "tm_number": "TM305",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat-whichever is higher for the user.",
+    "category": "tm"
+  },
+  "tm-ice-spinner": {
+    "name": "TM306: Ice Spinner",
+    "move_name": "Ice Spinner",
+    "tm_number": "TM306",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user covers its feet in thin ice and twirls around, slamming into the target. This move's spinning motion also destroys the terrain.",
+    "category": "tm"
+  },
+  "tm-hard-press": {
+    "name": "TM311: Hard Press",
+    "move_name": "Hard Press",
+    "tm_number": "TM311",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The target is crushed with an arm, a claw, or the like to inflict damage. The more HP the target has left, the greater the move's power.",
+    "category": "tm"
+  },
+  "tm-alluring-voice": {
+    "name": "TM313: Alluring Voice",
+    "move_name": "Alluring Voice",
+    "tm_number": "TM313",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks the target using its angelic voice. This also confuses the target if its stats have been boosted during the turn.",
+    "category": "tm"
+  },
+  "tm-temper-flare": {
+    "name": "TM314: Temper Flare",
+    "move_name": "Temper Flare",
+    "tm_number": "TM314",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "Spurred by desperation, the user attacks the target. This move's power is doubled if the user's previous move failed.",
+    "category": "tm"
+  },
+  "tm-supercell-slam": {
+    "name": "TM315: Supercell Slam",
+    "move_name": "Supercell Slam",
+    "tm_number": "TM315",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user electrifies its body and drops onto the target to inflict damage. If this move misses, the user takes damage instead.",
+    "category": "tm"
+  },
+  "tm-psychic-noise": {
+    "name": "TM316: Psychic Noise",
+    "move_name": "Psychic Noise",
+    "tm_number": "TM316",
+    "type": "Normal",
+    "rarity": "Great",
+    "description": "The user attacks the target with unpleasant sound waves. For two turns, the target is prevented from recovering HP through moves, Abilities, or held items.",
+    "category": "tm"
+  },
+  "tm-pay-day": {
+    "name": "TM002: Pay Day",
+    "move_name": "Pay Day",
+    "tm_number": "TM002",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+    "category": "tm"
+  },
+  "tm-double-edge": {
+    "name": "TM012: Double-Edge",
+    "move_name": "Double-Edge",
+    "tm_number": "TM012",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "A reckless, life-risking tackle in which the user rushes the target. This also damages the user quite a lot.",
+    "category": "tm"
+  },
+  "tm-flamethrower": {
+    "name": "TM015: Flamethrower",
+    "move_name": "Flamethrower",
+    "tm_number": "TM015",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+    "category": "tm"
+  },
+  "tm-hydro-pump": {
+    "name": "TM016: Hydro Pump",
+    "move_name": "Hydro Pump",
+    "tm_number": "TM016",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The target is blasted by a huge volume of water launched under great pressure.",
+    "category": "tm"
+  },
+  "tm-surf": {
+    "name": "TM017: Surf",
+    "move_name": "Surf",
+    "tm_number": "TM017",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks everything around it by swamping its surroundings with a giant wave.",
+    "category": "tm"
+  },
+  "tm-ice-beam": {
+    "name": "TM018: Ice Beam",
+    "move_name": "Ice Beam",
+    "tm_number": "TM018",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+    "category": "tm"
+  },
+  "tm-blizzard": {
+    "name": "TM019: Blizzard",
+    "move_name": "Blizzard",
+    "tm_number": "TM019",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+    "category": "tm"
+  },
+  "tm-hyper-beam": {
+    "name": "TM021: Hyper Beam",
+    "move_name": "Hyper Beam",
+    "tm_number": "TM021",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The target is attacked with a powerful beam. The user can't move on the next turn.",
+    "category": "tm"
+  },
+  "tm-solar-beam": {
+    "name": "TM025: Solar Beam",
+    "move_name": "Solar Beam",
+    "tm_number": "TM025",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
+    "category": "tm"
+  },
+  "tm-thunderbolt": {
+    "name": "TM027: Thunderbolt",
+    "move_name": "Thunderbolt",
+    "tm_number": "TM027",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+    "category": "tm"
+  },
+  "tm-thunder": {
+    "name": "TM029: Thunder",
+    "move_name": "Thunder",
+    "tm_number": "TM029",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+    "category": "tm"
+  },
+  "tm-earthquake": {
+    "name": "TM030: Earthquake",
+    "move_name": "Earthquake",
+    "tm_number": "TM030",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user sets off an earthquake that strikes every Pokémon around it.",
+    "category": "tm"
+  },
+  "tm-psychic": {
+    "name": "TM033: Psychic",
+    "move_name": "Psychic",
+    "tm_number": "TM033",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The target is hit by a strong telekinetic force. This may also lower the target's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-fire-blast": {
+    "name": "TM045: Fire Blast",
+    "move_name": "Fire Blast",
+    "tm_number": "TM045",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+    "category": "tm"
+  },
+  "tm-leech-life": {
+    "name": "TM050: Leech Life",
+    "move_name": "Leech Life",
+    "tm_number": "TM050",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user drains the target's blood. The user's HP is restored by half the damage taken by the target.",
+    "category": "tm"
+  },
+  "tm-tri-attack": {
+    "name": "TM055: Tri Attack",
+    "move_name": "Tri Attack",
+    "tm_number": "TM055",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target.",
+    "category": "tm"
+  },
+  "tm-sludge-bomb": {
+    "name": "TM065: Sludge Bomb",
+    "move_name": "Sludge Bomb",
+    "tm_number": "TM065",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "Unsanitary sludge is hurled at the target. This may also poison the target.",
+    "category": "tm"
+  },
+  "tm-outrage": {
+    "name": "TM069: Outrage",
+    "move_name": "Outrage",
+    "tm_number": "TM069",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+    "category": "tm"
+  },
+  "tm-giga-drain": {
+    "name": "TM071: Giga Drain",
+    "move_name": "Giga Drain",
+    "tm_number": "TM071",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
+    "category": "tm"
+  },
+  "tm-return": {
+    "name": "TM080: Return",
+    "move_name": "Return",
+    "tm_number": "TM080",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "This full-power attack grows more powerful the more the user likes its Trainer.",
+    "category": "tm"
+  },
+  "tm-megahorn": {
+    "name": "TM084: Megahorn",
+    "move_name": "Megahorn",
+    "tm_number": "TM084",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "Using its tough and impressive horn, the user rams into the target with no letup.",
+    "category": "tm"
+  },
+  "tm-shadow-ball": {
+    "name": "TM095: Shadow Ball",
+    "move_name": "Shadow Ball",
+    "tm_number": "TM095",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-heat-wave": {
+    "name": "TM101: Heat Wave",
+    "move_name": "Heat Wave",
+    "tm_number": "TM101",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave those Pokémon with a burn.",
+    "category": "tm"
+  },
+  "tm-superpower": {
+    "name": "TM112: Superpower",
+    "move_name": "Superpower",
+    "tm_number": "TM112",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks the target with great power. However, this also lowers the user's Attack and Defense stats.",
+    "category": "tm"
+  },
+  "tm-knock-off": {
+    "name": "TM116: Knock Off",
+    "move_name": "Knock Off",
+    "tm_number": "TM116",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user slaps down the target's held item, and that item can't be used in that battle. The move does more damage if the target has a held item.",
+    "category": "tm"
+  },
+  "tm-hyper-voice": {
+    "name": "TM123: Hyper Voice",
+    "move_name": "Hyper Voice",
+    "tm_number": "TM123",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+    "category": "tm"
+  },
+  "tm-blast-burn": {
+    "name": "TM124: Blast Burn",
+    "move_name": "Blast Burn",
+    "tm_number": "TM124",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The target is razed by a fiery explosion. The user can't move on the next turn.",
+    "category": "tm"
+  },
+  "tm-hydro-cannon": {
+    "name": "TM125: Hydro Cannon",
+    "move_name": "Hydro Cannon",
+    "tm_number": "TM125",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The target is hit with a watery blast. The user can't move on the next turn.",
+    "category": "tm"
+  },
+  "tm-overheat": {
+    "name": "TM129: Overheat",
+    "move_name": "Overheat",
+    "tm_number": "TM129",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.",
+    "category": "tm"
+  },
+  "tm-frenzy-plant": {
+    "name": "TM141: Frenzy Plant",
+    "move_name": "Frenzy Plant",
+    "tm_number": "TM141",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user slams the target with the roots of an enormous tree. The user can't move on the next turn.",
+    "category": "tm"
+  },
+  "tm-leaf-blade": {
+    "name": "TM149: Leaf Blade",
+    "move_name": "Leaf Blade",
+    "tm_number": "TM149",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily.",
+    "category": "tm"
+  },
+  "tm-close-combat": {
+    "name": "TM161: Close Combat",
+    "move_name": "Close Combat",
+    "tm_number": "TM161",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user fights the target up close without guarding itself. This also lowers the user's Defense and Sp. Def stats.",
+    "category": "tm"
+  },
+  "tm-flare-blitz": {
+    "name": "TM171: Flare Blitz",
+    "move_name": "Flare Blitz",
+    "tm_number": "TM171",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.",
+    "category": "tm"
+  },
+  "tm-brave-bird": {
+    "name": "TM187: Brave Bird",
+    "move_name": "Brave Bird",
+    "tm_number": "TM187",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.",
+    "category": "tm"
+  },
+  "tm-earth-power": {
+    "name": "TM188: Earth Power",
+    "move_name": "Earth Power",
+    "tm_number": "TM188",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user makes the ground under the target erupt with power. This may also lower the target's Sp. Def stat.",
+    "category": "tm"
+  },
+  "tm-draco-meteor": {
+    "name": "TM202: Draco Meteor",
+    "move_name": "Draco Meteor",
+    "tm_number": "TM202",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "Comets are summoned down from the sky onto the target. The attack's recoil harshly lowers the user's Sp. Atk stat.",
+    "category": "tm"
+  },
+  "tm-leaf-storm": {
+    "name": "TM203: Leaf Storm",
+    "move_name": "Leaf Storm",
+    "tm_number": "TM203",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user whips up a storm of leaves around the target. The attack's recoil harshly lowers the user's Sp. Atk stat.",
+    "category": "tm"
+  },
+  "tm-power-whip": {
+    "name": "TM204: Power Whip",
+    "move_name": "Power Whip",
+    "tm_number": "TM204",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user violently whirls its vines, tentacles, or the like to harshly lash the target.",
+    "category": "tm"
+  },
+  "tm-gunk-shot": {
+    "name": "TM206: Gunk Shot",
+    "move_name": "Gunk Shot",
+    "tm_number": "TM206",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user shoots filthy garbage at the target to attack. This may also poison the target.",
+    "category": "tm"
+  },
+  "tm-stone-edge": {
+    "name": "TM208: Stone Edge",
+    "move_name": "Stone Edge",
+    "tm_number": "TM208",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user stabs the target from below with sharpened stones. Critical hits land more easily.",
+    "category": "tm"
+  },
+  "tm-grass-knot": {
+    "name": "TM210: Grass Knot",
+    "move_name": "Grass Knot",
+    "tm_number": "TM210",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power.",
+    "category": "tm"
+  },
+  "tm-sludge-wave": {
+    "name": "TM219: Sludge Wave",
+    "move_name": "Sludge Wave",
+    "tm_number": "TM219",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+    "category": "tm"
+  },
+  "tm-foul-play": {
+    "name": "TM225: Foul Play",
+    "move_name": "Foul Play",
+    "tm_number": "TM225",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user turns the target's power against it. The higher the target's Attack stat, the greater the damage it deals.",
+    "category": "tm"
+  },
+  "tm-sacred-sword": {
+    "name": "TM249: Sacred Sword",
+    "move_name": "Sacred Sword",
+    "tm_number": "TM249",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks by slicing with a long horn. The target's stat changes don't affect this attack's damage.",
+    "category": "tm"
+  },
+  "tm-hurricane": {
+    "name": "TM253: Hurricane",
+    "move_name": "Hurricane",
+    "tm_number": "TM253",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target.",
+    "category": "tm"
+  },
+  "tm-phantom-force": {
+    "name": "TM255: Phantom Force",
+    "move_name": "Phantom Force",
+    "tm_number": "TM255",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+    "category": "tm"
+  },
+  "tm-dazzling-gleam": {
+    "name": "TM267: Dazzling Gleam",
+    "move_name": "Dazzling Gleam",
+    "tm_number": "TM267",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user damages opposing Pokémon by emitting a powerful flash.",
+    "category": "tm"
+  },
+  "tm-high-horsepower": {
+    "name": "TM271: High Horsepower",
+    "move_name": "High Horsepower",
+    "tm_number": "TM271",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user fiercely attacks the target using its entire body.",
+    "category": "tm"
+  },
+  "tm-solar-blade": {
+    "name": "TM272: Solar Blade",
+    "move_name": "Solar Blade",
+    "tm_number": "TM272",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "In this two-turn attack, the user gathers light and fills a blade with the light's energy, attacking the target on the next turn.",
+    "category": "tm"
+  },
+  "tm-pollen-puff": {
+    "name": "TM274: Pollen Puff",
+    "move_name": "Pollen Puff",
+    "tm_number": "TM274",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.",
+    "category": "tm"
+  },
+  "tm-liquidation": {
+    "name": "TM283: Liquidation",
+    "move_name": "Liquidation",
+    "tm_number": "TM283",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat.",
+    "category": "tm"
+  },
+  "tm-body-press": {
+    "name": "TM284: Body Press",
+    "move_name": "Body Press",
+    "tm_number": "TM284",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks by slamming its body into the target. The higher the user's Defense, the more damage it can inflict on the target.",
+    "category": "tm"
+  },
+  "tm-steel-beam": {
+    "name": "TM286: Steel Beam",
+    "move_name": "Steel Beam",
+    "tm_number": "TM286",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user fires a beam of steel that it collected from its entire body. This also damages the user.",
+    "category": "tm"
+  },
+  "tm-scale-shot": {
+    "name": "TM289: Scale Shot",
+    "move_name": "Scale Shot",
+    "tm_number": "TM289",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks by shooting scales two to five times in a row. This move boosts the user's Speed stat but lowers its Defense stat.",
+    "category": "tm"
+  },
+  "tm-poltergeist": {
+    "name": "TM298: Poltergeist",
+    "move_name": "Poltergeist",
+    "tm_number": "TM298",
+    "type": "Normal",
+    "rarity": "Ultra",
+    "description": "The user attacks the target by controlling the target's item. The move fails if the target doesn't have an item.",
+    "category": "tm"
+  }
+}
