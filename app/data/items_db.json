@@ -2,283 +2,283 @@
   "poke-ball": {
     "name": "Poké Ball",
     "description": "1xCatch Rate",
-    "tier": "Unknown",
+    "tier": "Common",
     "category": "pokeball"
   },
   "great-ball": {
     "name": "Great Ball",
     "description": "1.5xCatch Rate",
-    "tier": "Unknown",
+    "tier": "Great",
     "category": "pokeball"
   },
   "ultra-ball": {
     "name": "Ultra Ball",
     "description": "2xCatch Rate",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "pokeball"
   },
   "rogue-ball": {
     "name": "Rogue Ball",
     "description": "3xCatch Rate",
-    "tier": "Unknown",
+    "tier": "Rogue",
     "category": "pokeball"
   },
   "master-ball": {
     "name": "Master Ball",
     "description": "100%Catch Rate",
-    "tier": "Unknown",
+    "tier": "Master",
     "category": "pokeball"
   },
   "x-attack": {
     "name": "X Attack",
     "description": "Sin descripción",
-    "tier": "Unknown",
+    "tier": "Common",
     "category": "temp-buff"
   },
   "x-defense": {
     "name": "X Defense",
     "description": "Sin descripción",
-    "tier": "Unknown",
+    "tier": "Common",
     "category": "temp-buff"
   },
   "x-sp-atk": {
     "name": "X Sp. Atk",
     "description": "Sin descripción",
-    "tier": "Unknown",
+    "tier": "Common",
     "category": "temp-buff"
   },
   "x-sp-def": {
     "name": "X Sp. Def",
     "description": "Sin descripción",
-    "tier": "Unknown",
+    "tier": "Common",
     "category": "temp-buff"
   },
   "x-speed": {
     "name": "X Speed",
     "description": "Sin descripción",
-    "tier": "Unknown",
+    "tier": "Common",
     "category": "temp-buff"
   },
   "x-accuracy": {
     "name": "X Accuracy",
     "description": "Sin descripción",
-    "tier": "Unknown",
+    "tier": "Common",
     "category": "temp-buff"
   },
   "dire-hit": {
     "name": "Dire Hit",
     "description": "Sin descripción",
-    "tier": "Unknown",
+    "tier": "Great",
     "category": "temp-buff"
   },
   "hp-up": {
     "name": "HP Up",
-    "description": "Sin descripción",
-    "tier": "Unknown",
+    "description": "Increase HP",
+    "tier": "Great",
     "category": "perm-buff"
   },
   "protein": {
     "name": "Protein",
-    "description": "Sin descripción",
-    "tier": "Unknown",
+    "description": "Increase Attack",
+    "tier": "Great",
     "category": "perm-buff"
   },
   "iron": {
     "name": "Iron",
-    "description": "Sin descripción",
-    "tier": "Unknown",
+    "description": "Increase Defense",
+    "tier": "Great",
     "category": "perm-buff"
   },
   "calcium": {
     "name": "Calcium",
-    "description": "Sin descripción",
-    "tier": "Unknown",
+    "description": "Increase Special Attack",
+    "tier": "Great",
     "category": "perm-buff"
   },
   "zinc": {
     "name": "Zinc",
-    "description": "Sin descripción",
-    "tier": "Unknown",
+    "description": "Increase Special Defense",
+    "tier": "Great",
     "category": "perm-buff"
   },
   "carbos": {
     "name": "Carbos",
-    "description": "Sin descripción",
-    "tier": "Unknown",
+    "description": "Increase Speed",
+    "tier": "Great",
     "category": "perm-buff"
   },
   "rare-candy": {
     "name": "Rare Candy",
     "description": "Increases level of a Pokémon by 1.",
-    "tier": "Unknown",
+    "tier": "Common",
     "category": "misc"
   },
   "rarer-candy": {
     "name": "Rarer Candy",
     "description": "Increases all party members' level by 1.",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "misc"
   },
   "pp-up": {
     "name": "PP Up",
     "description": "Permanently increases PP for one Pokémon move by 1 for every 5 maximum PP (maximum 3)",
-    "tier": "Unknown",
+    "tier": "Great",
     "category": "pp-restore"
   },
   "pp-max": {
     "name": "PP Max",
     "description": "Permanently increases PP for one Pokémon move by 3 for every 5 maximum PP (maximum 3)",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "pp-restore"
   },
   "bashful-mint": {
     "name": "Bashful Mint",
     "description": "Changes a Pokémon's nature to Bashful (Neutral).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "docile-mint": {
     "name": "Docile Mint",
     "description": "Changes a Pokémon's nature to Docile (Neutral).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "hardy-mint": {
     "name": "Hardy Mint",
     "description": "Changes a Pokémon's nature to Hardy (Neutral).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "quirky-mint": {
     "name": "Quirky Mint",
     "description": "Changes a Pokémon's nature to Quirky (Neutral).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "serious-mint": {
     "name": "Serious Mint",
     "description": "Changes a Pokémon's nature to Serious (Neutral).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "adamant-mint": {
     "name": "Adamant Mint",
     "description": "Changes a Pokémon's nature to Adamant (+Atk/-SpAtk).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "brave-mint": {
     "name": "Brave Mint",
     "description": "Changes a Pokémon's nature to Brave (+Atk/-Spd).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "lonely-mint": {
     "name": "Lonely Mint",
     "description": "Changes a Pokémon's nature to Lonely (+Atk/-Def).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "naughty-mint": {
     "name": "Naughty Mint",
     "description": "Changes a Pokémon's nature to Naughty (+Atk/-SpDef).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "bold-mint": {
     "name": "Bold Mint",
     "description": "Changes a Pokémon's nature to Bold (+Def/-Atk).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "impish-mint": {
     "name": "Impish Mint",
     "description": "Changes a Pokémon's nature to Impish (+Def/-SpAtk).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "lax-mint": {
     "name": "Lax Mint",
     "description": "Changes a Pokémon's nature to Lax (+Def/-SpDef).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "relaxed-mint": {
     "name": "Relaxed Mint",
     "description": "Changes a Pokémon's nature to Relaxed (+Def/-Spd).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "modest-mint": {
     "name": "Modest Mint",
     "description": "Changes a Pokémon's nature to Modest (+SpAtk/-Atk).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "mild-mint": {
     "name": "Mild Mint",
     "description": "Changes a Pokémon's nature to Mild (+SpAtk/-Def).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "quiet-mint": {
     "name": "Quiet Mint",
     "description": "Changes a Pokémon's nature to Quiet (+SpAtk/-Spd).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "rash-mint": {
     "name": "Rash Mint",
     "description": "Changes a Pokémon's nature to Rash (+SpAtk/-SpDef).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "calm-mint": {
     "name": "Calm Mint",
     "description": "Changes a Pokémon's nature to Calm (+SpDef/-Atk).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "careful-mint": {
     "name": "Careful Mint",
     "description": "Changes a Pokémon's nature to Careful (+SpDef/-SpAtk).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "gentle-mint": {
     "name": "Gentle Mint",
     "description": "Changes a Pokémon's nature to Gentle (+SpDef/-Def).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "sassy-mint": {
     "name": "Sassy Mint",
     "description": "Changes a Pokémon's nature to Sassy (+SpDef/-Spd).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "hasty-mint": {
     "name": "Hasty Mint",
     "description": "Changes a Pokémon's nature to Hasty (+Spd/-Def).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "jolly-mint": {
     "name": "Jolly Mint",
     "description": "Changes a Pokémon's nature to Jolly (+Spd/-SpAtk).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "naive-mint": {
     "name": "Naive Mint",
     "description": "Changes a Pokémon's nature to Naive (+Spd/-SpDef).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "timid-mint": {
     "name": "Timid Mint",
     "description": "Changes a Pokémon's nature to Timid (+Spd/-Atk).",
-    "tier": "Unknown",
+    "tier": "Ultra",
     "category": "mint"
   },
   "linking-cord": {
