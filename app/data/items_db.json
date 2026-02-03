@@ -31,80 +31,80 @@
   },
   "x-attack": {
     "name": "X Attack",
-    "description": "Sin descripción",
+    "description": "Increase Attack by 1.2",
     "tier": "Common",
     "category": "temp-buff"
   },
   "x-defense": {
     "name": "X Defense",
-    "description": "Sin descripción",
+    "description": "Increase Defense by 1.2",
     "tier": "Common",
     "category": "temp-buff"
   },
   "x-sp-atk": {
     "name": "X Sp. Atk",
-    "description": "Sin descripción",
+    "description": "Increase Special Attack by 1.2",
     "tier": "Common",
     "category": "temp-buff"
   },
   "x-sp-def": {
     "name": "X Sp. Def",
-    "description": "Sin descripción",
+    "description": "Increase Special Defense by 1.2",
     "tier": "Common",
     "category": "temp-buff"
   },
   "x-speed": {
     "name": "X Speed",
-    "description": "Sin descripción",
+    "description": "Increase Speed by 1.2",
     "tier": "Common",
     "category": "temp-buff"
   },
   "x-accuracy": {
     "name": "X Accuracy",
-    "description": "Sin descripción",
+    "description": "Increase Accurency by 1.5",
     "tier": "Common",
     "category": "temp-buff"
   },
   "dire-hit": {
     "name": "Dire Hit",
-    "description": "Sin descripción",
+    "description": "Increases Critical Ratio for 1 stage",
     "tier": "Great",
     "category": "temp-buff"
   },
   "hp-up": {
     "name": "HP Up",
-    "description": "Increase HP",
-    "tier": "Great",
+    "description": "Sin descripción",
+    "tier": "Common",
     "category": "perm-buff"
   },
   "protein": {
     "name": "Protein",
-    "description": "Increase Attack",
-    "tier": "Great",
+    "description": "Sin descripción",
+    "tier": "Common",
     "category": "perm-buff"
   },
   "iron": {
     "name": "Iron",
-    "description": "Increase Defense",
-    "tier": "Great",
+    "description": "Sin descripción",
+    "tier": "Common",
     "category": "perm-buff"
   },
   "calcium": {
     "name": "Calcium",
-    "description": "Increase Special Attack",
-    "tier": "Great",
+    "description": "Sin descripción",
+    "tier": "Common",
     "category": "perm-buff"
   },
   "zinc": {
     "name": "Zinc",
-    "description": "Increase Special Defense",
-    "tier": "Great",
+    "description": "Sin descripción",
+    "tier": "Common",
     "category": "perm-buff"
   },
   "carbos": {
     "name": "Carbos",
-    "description": "Increase Speed",
-    "tier": "Great",
+    "description": "Sin descripción",
+    "tier": "Common",
     "category": "perm-buff"
   },
   "rare-candy": {
@@ -116,169 +116,169 @@
   "rarer-candy": {
     "name": "Rarer Candy",
     "description": "Increases all party members' level by 1.",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "misc"
   },
   "pp-up": {
     "name": "PP Up",
     "description": "Permanently increases PP for one Pokémon move by 1 for every 5 maximum PP (maximum 3)",
-    "tier": "Great",
-    "category": "pp-restore"
+    "tier": "Common",
+    "category": "perm-buff"
   },
   "pp-max": {
     "name": "PP Max",
     "description": "Permanently increases PP for one Pokémon move by 3 for every 5 maximum PP (maximum 3)",
-    "tier": "Ultra",
-    "category": "pp-restore"
+    "tier": "Common",
+    "category": "misc"
   },
   "bashful-mint": {
     "name": "Bashful Mint",
     "description": "Changes a Pokémon's nature to Bashful (Neutral).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "docile-mint": {
     "name": "Docile Mint",
     "description": "Changes a Pokémon's nature to Docile (Neutral).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "hardy-mint": {
     "name": "Hardy Mint",
     "description": "Changes a Pokémon's nature to Hardy (Neutral).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "quirky-mint": {
     "name": "Quirky Mint",
     "description": "Changes a Pokémon's nature to Quirky (Neutral).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "serious-mint": {
     "name": "Serious Mint",
     "description": "Changes a Pokémon's nature to Serious (Neutral).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "adamant-mint": {
     "name": "Adamant Mint",
     "description": "Changes a Pokémon's nature to Adamant (+Atk/-SpAtk).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "brave-mint": {
     "name": "Brave Mint",
     "description": "Changes a Pokémon's nature to Brave (+Atk/-Spd).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "lonely-mint": {
     "name": "Lonely Mint",
     "description": "Changes a Pokémon's nature to Lonely (+Atk/-Def).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "naughty-mint": {
     "name": "Naughty Mint",
     "description": "Changes a Pokémon's nature to Naughty (+Atk/-SpDef).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "bold-mint": {
     "name": "Bold Mint",
     "description": "Changes a Pokémon's nature to Bold (+Def/-Atk).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "impish-mint": {
     "name": "Impish Mint",
     "description": "Changes a Pokémon's nature to Impish (+Def/-SpAtk).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "lax-mint": {
     "name": "Lax Mint",
     "description": "Changes a Pokémon's nature to Lax (+Def/-SpDef).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "relaxed-mint": {
     "name": "Relaxed Mint",
     "description": "Changes a Pokémon's nature to Relaxed (+Def/-Spd).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "modest-mint": {
     "name": "Modest Mint",
     "description": "Changes a Pokémon's nature to Modest (+SpAtk/-Atk).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "mild-mint": {
     "name": "Mild Mint",
     "description": "Changes a Pokémon's nature to Mild (+SpAtk/-Def).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "quiet-mint": {
     "name": "Quiet Mint",
     "description": "Changes a Pokémon's nature to Quiet (+SpAtk/-Spd).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "rash-mint": {
     "name": "Rash Mint",
     "description": "Changes a Pokémon's nature to Rash (+SpAtk/-SpDef).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "calm-mint": {
     "name": "Calm Mint",
     "description": "Changes a Pokémon's nature to Calm (+SpDef/-Atk).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "careful-mint": {
     "name": "Careful Mint",
     "description": "Changes a Pokémon's nature to Careful (+SpDef/-SpAtk).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "gentle-mint": {
     "name": "Gentle Mint",
     "description": "Changes a Pokémon's nature to Gentle (+SpDef/-Def).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "sassy-mint": {
     "name": "Sassy Mint",
     "description": "Changes a Pokémon's nature to Sassy (+SpDef/-Spd).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "hasty-mint": {
     "name": "Hasty Mint",
     "description": "Changes a Pokémon's nature to Hasty (+Spd/-Def).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "jolly-mint": {
     "name": "Jolly Mint",
     "description": "Changes a Pokémon's nature to Jolly (+Spd/-SpAtk).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "naive-mint": {
     "name": "Naive Mint",
     "description": "Changes a Pokémon's nature to Naive (+Spd/-SpDef).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "timid-mint": {
     "name": "Timid Mint",
     "description": "Changes a Pokémon's nature to Timid (+Spd/-Atk).",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "mint"
   },
   "linking-cord": {
@@ -357,13 +357,13 @@
     "name": "Sweet Apple",
     "description": "Applin→Appletun",
     "tier": "Great",
-    "category": "pp-restore"
+    "category": "misc"
   },
   "tart-apple": {
     "name": "Tart Apple",
     "description": "Applin→Flapple",
     "tier": "Great",
-    "category": "pp-restore"
+    "category": "misc"
   },
   "strawberry-sweet": {
     "name": "Strawberry Sweet",
@@ -387,25 +387,25 @@
     "name": "Dubious Disc",
     "description": "Porygon2→Porygon-Z",
     "tier": "Great",
-    "category": "misc"
+    "category": "evolution"
   },
   "dragon-scale": {
     "name": "Dragon Scale",
     "description": "Seadra→Kingdra",
     "tier": "Great",
-    "category": "held-item"
+    "category": "evolution"
   },
   "prism-scale": {
     "name": "Prism Scale",
     "description": "Feebas→Milotic",
     "tier": "Great",
-    "category": "held-item"
+    "category": "evolution"
   },
   "razor-claw": {
     "name": "Razor Claw",
     "description": "Sneasel→Weavile, Hisuian Sneasel→Sneasler",
     "tier": "Great",
-    "category": "misc"
+    "category": "held-item"
   },
   "razor-fang": {
     "name": "Razor Fang",
@@ -417,31 +417,31 @@
     "name": "Oval Stone",
     "description": "Happiny→Chansey",
     "tier": "Great",
-    "category": "pp-restore"
+    "category": "evolution"
   },
   "reaper-cloth": {
     "name": "Reaper Cloth",
     "description": "Dusclops→Dusknoir",
     "tier": "Great",
-    "category": "misc"
+    "category": "evolution"
   },
   "electirizer": {
     "name": "Electirizer",
     "description": "Electabuzz→Electivire",
     "tier": "Great",
-    "category": "misc"
+    "category": "evolution"
   },
   "magmarizer": {
     "name": "Magmarizer",
     "description": "Magmar→Magmortar",
     "tier": "Great",
-    "category": "misc"
+    "category": "evolution"
   },
   "protector": {
     "name": "Protector",
     "description": "Rhydon→Rhyperior",
     "tier": "Great",
-    "category": "misc"
+    "category": "evolution"
   },
   "sachet": {
     "name": "Sachet",
@@ -459,7 +459,7 @@
     "name": "Syrupy Apple",
     "description": "Applin→Dipplin",
     "tier": "Great",
-    "category": "pp-restore"
+    "category": "misc"
   },
   "chipped-pot": {
     "name": "Chipped Pot",
@@ -495,7 +495,7 @@
     "name": "Masterpiece Teacup",
     "description": "Artisan Form Poltchageist→Masterpiece Form Sinistcha",
     "tier": "Great",
-    "category": "pokeball"
+    "category": "misc"
   },
   "sun-flute": {
     "name": "Sun Flute",
@@ -537,7 +537,7 @@
     "name": "Tera Shard",
     "description": "Changes one party member's typing to the tera type for 10 rounds.",
     "tier": "Great",
-    "category": "tera-shard"
+    "category": "misc"
   },
   "apicot-berry": {
     "name": "Apicot Berry",
@@ -608,283 +608,283 @@
   "silk-scarf": {
     "name": "Silk Scarf",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "held-item"
   },
   "black-belt": {
     "name": "Black Belt",
     "description": "Sin descripción",
-    "tier": "Ultra",
-    "category": "misc"
+    "tier": "Common",
+    "category": "held-item"
   },
   "sharp-beak": {
     "name": "Sharp Beak",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "held-item"
   },
   "poison-barb": {
     "name": "Poison Barb",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "misc"
   },
   "soft-sand": {
     "name": "Soft Sand",
     "description": "Sin descripción",
-    "tier": "Ultra",
-    "category": "misc"
+    "tier": "Common",
+    "category": "held-item"
   },
   "hard-stone": {
     "name": "Hard Stone",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "evolution"
   },
   "silver-powder": {
     "name": "Silver Powder",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "held-item"
   },
   "spell-tag": {
     "name": "Spell Tag",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "misc"
   },
   "metal-coat": {
     "name": "Metal Coat",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "held-item"
   },
   "charcoal": {
     "name": "Charcoal",
     "description": "Sin descripción",
-    "tier": "Ultra",
-    "category": "misc"
+    "tier": "Common",
+    "category": "held-item"
   },
   "mystic-water": {
     "name": "Mystic Water",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "misc"
   },
   "miracle-seed": {
     "name": "Miracle Seed",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "held-item"
   },
   "magnet": {
     "name": "Magnet",
     "description": "Sin descripción",
-    "tier": "Ultra",
-    "category": "misc"
+    "tier": "Common",
+    "category": "held-item"
   },
   "twisted-spoon": {
     "name": "Twisted Spoon",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "held-item"
   },
   "never-melt-ice": {
     "name": "Never-Melt Ice",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "misc"
   },
   "dragon-fang": {
     "name": "Dragon Fang",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "held-item"
   },
   "black-glasses": {
     "name": "Black Glasses",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "held-item"
   },
   "fairy-feather": {
     "name": "Fairy Feather",
     "description": "Sin descripción",
-    "tier": "Ultra",
+    "tier": "Common",
     "category": "misc"
   },
   "deep-sea-tooth": {
     "name": "Deep Sea Tooth",
     "description": "Doubles Special Attack forClamperl.",
     "tier": "03Great",
-    "category": "held-item"
+    "category": "misc"
   },
   "deep-sea-scale": {
     "name": "Deep Sea Scale",
     "description": "Doubles Special Defense forClamperl.",
     "tier": "03Great",
-    "category": "held-item"
+    "category": "evolution"
   },
   "light-ball": {
     "name": "Light Ball",
     "description": "Doubles Attack and Special Attack forPikachu.Can also appear if one of your party members knows the move Fling.",
-    "tier": "03Ultra",
+    "tier": "Ultra",
     "category": "pokeball"
   },
   "thick-club": {
     "name": "Thick Club",
     "description": "Doubles Attack forCubone,Marowak, andAlolan Marowak.",
-    "tier": "03Ultra",
-    "category": "held-item"
+    "tier": "Ultra",
+    "category": "misc"
   },
   "metal-powder": {
     "name": "Metal Powder",
     "description": "Doubles Defense forDitto.",
-    "tier": "03Ultra",
+    "tier": "Ultra",
     "category": "held-item"
   },
   "quick-powder": {
     "name": "Quick Powder",
     "description": "Doubles Speed forDitto.",
-    "tier": "03Ultra",
+    "tier": "Ultra",
     "category": "held-item"
   },
   "eviolite": {
     "name": "Eviolite",
     "description": "“This mysterious evolutionary lump boosts the Defense and Sp. Def stats when held by a Pokémon that can still evolve.”Only appears if you have unlocked the achievement 'Bring Your Child To Work Day'. Only appears if one or more party members are not fully evolved, with a weight of 10.Has no effect on Gigantamaxed Pokémon.",
-    "tier": "03Ultra",
-    "category": "pp-restore"
+    "tier": "Ultra",
+    "category": "held-item"
   },
   "reviver-seed": {
     "name": "Reviver Seed",
     "description": "“Revives the holder for 1/2 HP upon fainting from a direct hit.”In addition, this removes all stat changes as would normally happen when a Pokémon is KO'd and is one time use. Current circumstances where the Pokémon is not revived include: taking indirect damage, getting hit by an OHKO move, Weather Damage, and using Self Destruct or another similar move.",
-    "tier": "03Ultra",
+    "tier": "Ultra",
     "category": "revive"
   },
   "golden-punch": {
     "name": "Golden Punch",
     "description": "“Grants 50% of damage inflicted as money.”Cannot be found in the rewards screen on wave 199 of Classic and Challenge modes.",
-    "tier": "03Ultra",
+    "tier": "Ultra",
     "category": "misc"
   },
   "flame-orb": {
     "name": "Flame Orb",
     "description": "“Burns its holder at the end of the turn if they do not have a status condition already.”In addition, if one type of orb is held, another cannot be applied. Only appears if a party member has Facade, Trick, Switcheroo, Fling, Psycho Shift, Magic Guard, Guts, Quick Feet, Marvel Scale, or Flare Boost, with a weight of 10",
-    "tier": "03Ultra",
-    "category": "pp-restore"
+    "tier": "Ultra",
+    "category": "status-cure"
   },
   "toxic-orb": {
     "name": "Toxic Orb",
     "description": "“Badly poisons its holder at the end of the turn if they do not have a status condition already.”In addition, if one type of orb is held, another cannot be applied. Only appears if a party member has Facade, Trick, Switcheroo, Fling, Psycho Shift, Magic Guard, Guts, Quick Feet, Marvel Scale, Toxic Boost, or Poison Heal, with a weight of 10",
-    "tier": "03Ultra",
-    "category": "healing"
+    "tier": "Ultra",
+    "category": "status-cure"
   },
   "leek": {
     "name": "Leek",
     "description": "Increases crititcal-hit ratio by 2 stages forFarfetch'd,Galarian Farfetch'dandSirfetch'd.Only appears ifFarfetch'd,Galarian Farfetch'dorSirfetch'dare in your party",
-    "tier": "03Ultra",
-    "category": "pp-restore"
+    "tier": "Ultra",
+    "category": "misc"
   },
   "wide-lens": {
     "name": "Wide Lens",
     "description": "“Increases move accuracy by 5 (maximum 100).”",
-    "tier": "03Ultra",
+    "tier": "Ultra",
     "category": "held-item"
   },
   "mystical-rock": {
     "name": "Mystical Rock",
     "description": "Increases the duration of the holder's terrain and weather by +2.Only appears if a party member has Drizzle, Orichalcum Pulse, Drought, Sand Stream, Sand Spit, Snow Warning, Electric Surge, Hadron Engine, Psychic Surge, Grassy Surge, Seed Sower, Misty Surge, Sunny Day, Rain Dance, Sandstorm, Snowscape, Hail, Chilly Reception, Electric Terrain, Psychic Terrain, Grassy Terrain or Misty Terrain, with a weight of 10.",
-    "tier": "03Ultra",
-    "category": "pp-restore"
+    "tier": "Ultra",
+    "category": "held-item"
   },
   "baton": {
     "name": "Baton",
     "description": "“Allows passing along effects when switching Pokémon, which also bypasses traps.”The Baton transfers to the switched pokémon after use.",
-    "tier": "04Rogue",
+    "tier": "Rogue",
     "category": "misc"
   },
   "focus-band": {
     "name": "Focus Band",
     "description": "“Adds a 10% chance to survive with 1 HP after being damaged enough to faint.”",
-    "tier": "04Rogue",
+    "tier": "Rogue",
     "category": "held-item"
   },
   "grip-claw": {
     "name": "Grip Claw",
     "description": "“Upon attacking, there is a 10% chance the foe's held item will be stolen.”This effect works per hit with attacking moves that hit more than once.",
-    "tier": "04Rogue",
-    "category": "misc"
+    "tier": "Rogue",
+    "category": "held-item"
   },
   "quick-claw": {
     "name": "Quick Claw",
     "description": "“Adds a 10% chance to move first regardless of speed (after priority).”",
-    "tier": "04Ultra",
-    "category": "misc"
+    "tier": "Ultra",
+    "category": "held-item"
   },
   "kings-rock": {
     "name": "King's Rock",
     "description": "“Adds a 10% chance an attack move will cause the opponent to flinch.”Does not apply effect if the move used already has a chance to flinch the opponent.",
-    "tier": "04Rogue",
-    "category": "pp-restore"
+    "tier": "Rogue",
+    "category": "held-item"
   },
   "leftovers": {
     "name": "Leftovers",
     "description": "“Heals 1/16 of a Pokémon's maximum HP every turn.”",
-    "tier": "04Rogue",
-    "category": "healing"
+    "tier": "Rogue",
+    "category": "misc"
   },
   "form-change-item": {
     "name": "Form Change Item",
     "description": "“Causes certain Pokémon to change form”.Can only appear if you have a party member that can use them, these are various items for changing the form of your Pokémon, for example: Mega Stones, Max Mushrooms, Rusted Sword, Rusted Shield, a full list of these can be foundon this pageor on theFull Item Pool. Cannot be stolen.",
-    "tier": "04Ultra/Rogue",
-    "category": "pp-restore"
+    "tier": "Ultra/Rogue",
+    "category": "misc"
   },
   "shell-bell": {
     "name": "Shell Bell",
     "description": "“Heals 1/8 of the Pokémon's dealt damage.”",
-    "tier": "04Rogue",
-    "category": "healing"
+    "tier": "Rogue",
+    "category": "held-item"
   },
   "soothe-bell": {
     "name": "Soothe Bell",
     "description": "“Increases friendship gain by 50%.”",
-    "tier": "04Great",
-    "category": "misc"
+    "tier": "Great",
+    "category": "held-item"
   },
   "soul-dew": {
     "name": "Soul Dew",
     "description": "“Increases the influence of a Pokémon's nature on its stats by 10% (additive).”",
-    "tier": "04Rogue",
-    "category": "held-item"
+    "tier": "Rogue",
+    "category": "misc"
   },
   "scope-lens": {
     "name": "Scope Lens",
     "description": "“It boosts the holder's critical-hit ratio by 1 stage.”",
-    "tier": "04Rogue",
+    "tier": "Rogue",
     "category": "held-item"
   },
   "multi-lens": {
     "name": "Multi Lens",
     "description": "“Converts 25% of damage from the holder's attacks into an additional strike.”Multi-Hit attacks are not affected by Multi LensTwo-turn attacks are not affected by Multi Lens. This is true even in conditions that allow them to skip their usual charge turn requirement, such as using Solarbeam in Harsh Sunlight for example.",
-    "tier": "06Master",
+    "tier": "Master",
     "category": "held-item"
   },
   "mini-black-hole": {
     "name": "Mini Black Hole",
     "description": "“Every turn, the holder acquires one held item from the foe”Not available by default. Cannot be stolen.",
-    "tier": "06Master",
+    "tier": "Master",
     "category": "misc"
   },
   "lucky-egg": {
     "name": "Lucky Egg",
     "description": "“Increases the holder's gain of EXP. Points by 40%.”",
-    "tier": "07Doesn't Show in Shop",
+    "tier": "Doesn't Show in Shop",
     "category": "misc"
   },
   "golden-egg": {
     "name": "Golden Egg",
     "description": "“Increases the holder's gain of EXP. Points by 100%.”",
-    "tier": "07Doesn't Show in Shop",
+    "tier": "Doesn't Show in Shop",
     "category": "misc"
   },
   "golden-poke-ball": {
@@ -927,31 +927,31 @@
     "name": "EXP. Charm",
     "description": "Increases gain of EXP. Points by 25%.",
     "tier": "Ultra",
-    "category": "held-item"
+    "category": "key-item"
   },
   "super-exp-charm": {
     "name": "Super EXP. Charm",
     "description": "Increases gain of EXP. Points by 60%.",
     "tier": "Rogue",
-    "category": "held-item"
+    "category": "key-item"
   },
   "golden-exp-charm": {
     "name": "Golden EXP. Charm",
     "description": "Increases gain of EXP. Points by 100%.",
     "tier": "N/A",
-    "category": "held-item"
+    "category": "key-item"
   },
   "shiny-charm": {
     "name": "Shiny Charm",
     "description": "Dramatically increases the chance of a wild Pokémon being Shiny.",
     "tier": "Master",
-    "category": "held-item"
+    "category": "key-item"
   },
   "ability-charm": {
     "name": "Ability Charm",
     "description": "Dramatically increases the chance of a wild Pokémon having a Hidden Ability.",
     "tier": "Rogue",
-    "category": "held-item"
+    "category": "key-item"
   },
   "iv-scanner": {
     "name": "IV Scanner",
@@ -975,7 +975,7 @@
     "name": "Tera Orb",
     "description": "Tera Shards become available.",
     "tier": "Ultra",
-    "category": "misc"
+    "category": "held-item"
   },
   "berry-pouch": {
     "name": "Berry Pouch",
@@ -987,12 +987,12 @@
     "name": "Healing Charm",
     "description": "Increases the effectiveness of HP restoring moves and items by 10% (excludes Revives).",
     "tier": "Master",
-    "category": "held-item"
+    "category": "healing"
   },
   "catching-charm": {
     "name": "Catching Charm",
     "description": "Increases the chance of getting a critical catch.",
     "tier": "Rogue",
-    "category": "held-item"
+    "category": "key-item"
   }
 }
