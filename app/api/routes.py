@@ -5,6 +5,7 @@ from app.models.pokemon import Pokemon
 from app.core.decision_engine import analyze_combat_matchup, analyze_catch_potential
 from app.services.pokemon_service import POKEMON_DB
 from app.services.pokemon_service import get_pokemon as service_get_pokemon
+from app.services.items_service import item_service
 
 
 router = APIRouter()
@@ -14,6 +15,11 @@ router = APIRouter()
 class CombatRequest(BaseModel):
     my_team: Team
     enemy_pokemon: Pokemon
+
+
+class ItemRequest(BaseModel):
+    my_team: Team
+    options: list[str]
 
 
 @router.get("/pokemon/names")
@@ -66,6 +72,27 @@ def analyze_catch(request: CombatRequest):
     """
     try:
         result = analyze_catch_potential(request.my_team, request.enemy_pokemon)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
+
+@router.get("/items/list")
+def get_items_list():
+    """
+        Devuelve todos los objetos y MTs para el buscador del frontend
+    """
+    return item_service.get_all_names()
+
+
+@router.post("/analyze/rewards")
+def analyze_rewards(request: ItemRequest):
+    """
+        Recibe tu equipo y una lista de opciones
+        Devuelve cual elegir
+    """
+    try:
+        result = item_service.evaluate_reward_options(request.my_team, request.options)
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
