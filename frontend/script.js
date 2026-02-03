@@ -1,17 +1,15 @@
 const API_URL = "http://127.0.0.1:8000";
 
-// REFERENCIAS
+// REFERENCIAS DOM
 const teamContainer = document.getElementById('team-container');
 const btnAddMember = document.getElementById('add-member-btn');
 const teamCountSpan = document.getElementById('team-count');
 const enemySelect = document.getElementById('enemy-pokemon-select');
 
-// Botones de Acción
 const btnAnalyze = document.getElementById('analyze-btn');
 const btnCatch = document.getElementById('catch-btn');
-const btnItem = document.getElementById('item-btn'); // NUEVO
+const btnItem = document.getElementById('item-btn');
 
-// Selectores de Recompensa (NUEVOS)
 const rewardSelects = [
     document.getElementById('reward-1'),
     document.getElementById('reward-2'),
@@ -22,197 +20,245 @@ const resultArea = document.getElementById('result-area');
 const recommendationText = document.getElementById('recommendation-text');
 const reasonsList = document.getElementById('reasons-list');
 
+// Variables Globales
 let allPokemonNames = [];
-let allItemNames = []; // NUEVA LISTA
+let allItemNames = [];
+const pokemonCache = {};
 
-// 1. INICIALIZACIÓN
+
 async function init() {
     try {
-        // Cargar nombres de Pokémon
-        const respPoke = await fetch(`${API_URL}/pokemon/names`);
+        const [respPoke, respItems] = await Promise.all([
+            fetch(`${API_URL}/pokemon/names`),
+            fetch(`${API_URL}/items/list`)
+        ]);
+
         allPokemonNames = await respPoke.json();
-        
-        // NUEVO: Cargar nombres de Objetos/MTs
-        const respItems = await fetch(`${API_URL}/items/list`);
         allItemNames = await respItems.json();
 
-        // Inicializar selectores
         fillSelect(enemySelect, allPokemonNames);
-        
-        const firstSlot = document.getElementById('slot-0');
-        const firstSelect = firstSlot.querySelector('select');
-        fillSelect(firstSelect, allPokemonNames);
-        setupSlotEvents(firstSlot);
-
-        // NUEVO: Llenar selectores de objetos
         rewardSelects.forEach(sel => fillItemSelect(sel));
+
+        // Cargar estado guardado
+        loadState();
+
+        // Listeners globales
+        enemySelect.addEventListener('change', () => {
+            updatePreview(enemySelect, 'enemy-pokemon-preview');
+            saveState();
+        });
+        
+        rewardSelects.forEach(sel => {
+            sel.addEventListener('change', saveState);
+        });
 
         updateCount();
 
     } catch (error) {
-        console.error("Error inicial:", error);
+        console.error("Error conectando con el servidor:", error);
     }
 }
 
-// Auxiliar para llenar Pokémon
-function fillSelect(selectElement, dataList) {
-    const currentValue = selectElement.value;
-    selectElement.innerHTML = '<option value="" disabled selected>Elige...</option>';
-    dataList.forEach(name => {
-        const option = document.createElement('option');
-        option.value = name;
-        option.textContent = name.charAt(0).toUpperCase() + name.slice(1);
-        selectElement.appendChild(option);
+
+function saveState() {
+    const currentTeam = [];
+    document.querySelectorAll('.team-select').forEach(sel => {
+        currentTeam.push(sel.value);
     });
-    if(currentValue) selectElement.value = currentValue;
+
+    const state = {
+        team: currentTeam,
+        enemy: enemySelect.value,
+        rewards: rewardSelects.map(s => s.value)
+    };
+
+    localStorage.setItem('pokerogue_save', JSON.stringify(state));
 }
 
-// NUEVO: Auxiliar para llenar Objetos (tienen ID y Name)
-function fillItemSelect(selectElement) {
-    selectElement.innerHTML = '<option value="" disabled selected>Opción...</option>';
-    allItemNames.forEach(item => {
-        const option = document.createElement('option');
-        option.value = item.id; // El ID interno (ej: "tm-swords-dance")
-        // Mostramos el nombre bonito + Tier si existe
-        let label = item.name;
-        if(item.tier && item.tier !== "Unknown") label += ` [${item.tier}]`;
-        option.textContent = label;
-        selectElement.appendChild(option);
-    });
+function loadState() {
+    const savedJSON = localStorage.getItem('pokerogue_save');
+    if (!savedJSON) {
+        // Estado inicial por defecto
+        teamContainer.innerHTML = '';
+        createSlotHTML(""); 
+        return;
+    }
+
+    try {
+        const state = JSON.parse(savedJSON);
+
+        if (state.enemy) {
+            enemySelect.value = state.enemy;
+            updatePreview(enemySelect, 'enemy-pokemon-preview');
+        }
+
+        if (state.rewards) {
+            rewardSelects.forEach((sel, i) => {
+                if(state.rewards[i]) sel.value = state.rewards[i];
+            });
+        }
+
+        teamContainer.innerHTML = ''; 
+        if (state.team && state.team.length > 0) {
+            state.team.forEach(poke => createSlotHTML(poke));
+        } else {
+            createSlotHTML("");
+        }
+
+    } catch (e) {
+        // En caso de error, reseteamos a un slot vacío
+        teamContainer.innerHTML = '';
+        createSlotHTML("");
+    }
 }
 
-// 2. GESTIÓN DE SLOTS DE EQUIPO
-btnAddMember.addEventListener('click', () => {
-    const currentSlots = document.querySelectorAll('.pokemon-slot').length;
-    if (currentSlots >= 6) { alert("Máximo 6 Pokémon."); return; }
 
-    const newId = `slot-${Date.now()}`;
+function createSlotHTML(preselectedValue = "") {
+    const id = `slot-${Date.now()}-${Math.random().toString(36).substr(2, 5)}`;
+    
     const slotDiv = document.createElement('div');
     slotDiv.className = 'pokemon-slot';
-    slotDiv.id = newId;
-    slotDiv.innerHTML = `
-        <select class="team-select"><option value="" disabled selected>Nuevo...</option></select>
-        <div class="mini-preview">?</div>
-        <button class="remove-btn" onclick="removeSlot('${newId}')">×</button>
-    `;
-    teamContainer.appendChild(slotDiv);
+    slotDiv.id = id;
     
-    const newSelect = slotDiv.querySelector('select');
-    fillSelect(newSelect, allPokemonNames);
-    setupSlotEvents(slotDiv);
-    updateCount();
-});
+    slotDiv.innerHTML = `
+        <select class="team-select"></select>
+        <div class="mini-preview">?</div>
+        <button class="remove-btn">×</button>
+    `;
 
-window.removeSlot = (id) => {
-    if (id === 'slot-0') {
-        const slot0 = document.getElementById('slot-0');
-        slot0.querySelector('select').value = "";
-        slot0.querySelector('.mini-preview').innerHTML = "?";
-        return; 
-    }
-    const element = document.getElementById(id);
-    if (element) { element.remove(); updateCount(); }
-};
+    teamContainer.appendChild(slotDiv);
 
-function updateCount() {
-    teamCountSpan.textContent = document.querySelectorAll('.pokemon-slot').length;
-}
-
-function setupSlotEvents(slotDiv) {
     const select = slotDiv.querySelector('select');
     const preview = slotDiv.querySelector('.mini-preview');
-    const newSelect = select.cloneNode(true);
-    select.parentNode.replaceChild(newSelect, select);
+    const btnRemove = slotDiv.querySelector('.remove-btn');
 
-    newSelect.addEventListener('change', async () => {
-        const name = newSelect.value;
-        if (!name) return;
-        preview.innerHTML = '⏳';
-        try {
-            const data = await fetchPokemonData(name);
-            preview.innerHTML = data.sprite ? `<img src="${data.sprite}" style="height:100%">` : '?';
-        } catch(e) { preview.innerHTML = '❌'; }
+    fillSelect(select, allPokemonNames);
+
+    if (preselectedValue) {
+        select.value = preselectedValue;
+        updatePreview(select, null, preview);
+    }
+
+    select.addEventListener('change', () => {
+        updatePreview(select, null, preview);
+        saveState();
+    });
+
+    btnRemove.addEventListener('click', () => {
+        removeSlot(id);
     });
 }
 
-enemySelect.addEventListener('change', async () => {
-    const name = enemySelect.value;
-    const preview = document.getElementById('enemy-pokemon-preview');
+function removeSlot(id) {
+    const slots = document.querySelectorAll('.pokemon-slot');
+    if (slots.length <= 1) {
+        const slot = document.getElementById(id);
+        slot.querySelector('select').value = "";
+        slot.querySelector('.mini-preview').innerHTML = "?";
+        saveState();
+        return;
+    }
+    document.getElementById(id).remove();
+    saveState();
+    updateCount();
+}
+
+function updateCount() {
+    const count = document.querySelectorAll('.pokemon-slot').length;
+    if (teamCountSpan) teamCountSpan.textContent = count;
+}
+
+
+function fillSelect(selectElement, dataList) {
+    const val = selectElement.value;
+    const fragment = document.createDocumentFragment();
+    
+    const def = document.createElement('option');
+    def.value = ""; def.textContent = "Elige..."; def.disabled = true;
+    if(!val) def.selected = true;
+    fragment.appendChild(def);
+
+    dataList.forEach(name => {
+        const opt = document.createElement('option');
+        opt.value = name; opt.textContent = name.charAt(0).toUpperCase() + name.slice(1);
+        fragment.appendChild(opt);
+    });
+    
+    selectElement.innerHTML = '';
+    selectElement.appendChild(fragment);
+    if(val) selectElement.value = val;
+}
+
+function fillItemSelect(selectElement) {
+    const val = selectElement.value;
+    selectElement.innerHTML = '<option value="" disabled selected>Opción...</option>';
+    allItemNames.forEach(item => {
+        const opt = document.createElement('option');
+        opt.value = item.id;
+        let label = item.name;
+        if(item.tier && item.tier !== "Unknown" && item.tier !== "Common") label += ` [${item.tier}]`;
+        opt.textContent = label;
+        selectElement.appendChild(opt);
+    });
+    if(val) selectElement.value = val;
+}
+
+async function updatePreview(selectElement, previewId = null, previewElement = null) {
+    const name = selectElement.value;
+    const container = previewElement || document.getElementById(previewId);
     if (!name) return;
-    preview.innerHTML = '⏳';
+
+    container.innerHTML = '⏳';
     try {
         const data = await fetchPokemonData(name);
-        preview.innerHTML = data.sprite ? `<img src="${data.sprite}" style="height:100%">` : '?';
-    } catch(e) { preview.innerHTML = '❌'; }
-});
+        container.innerHTML = data.sprite ? `<img src="${data.sprite}" style="height:100%">` : '?';
+    } catch(e) { container.innerHTML = '❌'; }
+}
 
-// 3. API FETCHING
+
 async function fetchPokemonData(name) {
-    const response = await fetch(`${API_URL}/pokemon/${name}`);
-    if (!response.ok) throw new Error("Not found");
-    return await response.json();
+    if (pokemonCache[name]) return pokemonCache[name];
+    const resp = await fetch(`${API_URL}/pokemon/${name}`);
+    if (!resp.ok) throw new Error("Not found");
+    const data = await resp.json();
+    pokemonCache[name] = data;
+    return data;
 }
 
 async function getTeamData() {
     const selects = document.querySelectorAll('.team-select');
     const membersData = [];
     for (const select of selects) {
-        const name = select.value;
-        if (name && name !== "") {
-            const data = await fetchPokemonData(name);
-            membersData.push(data);
-        }
+        if (select.value) membersData.push(await fetchPokemonData(select.value));
     }
     return membersData;
 }
 
-// 4. LÓGICA DE ACCIONES (COMBATE, CAPTURA Y ITEMS)
 async function handleAction(endpoint, isItemAnalysis = false) {
     const teamMembers = await getTeamData();
-    if (teamMembers.length === 0) { alert("Elige tu equipo primero."); return; }
-
+    if (!teamMembers.length) { alert("Tu equipo está vacío."); return; }
     let payload = {};
 
     if (isItemAnalysis) {
-        // LÓGICA DE RECOMPENSAS
-        const options = [];
-        rewardSelects.forEach(sel => {
-            if(sel.value) options.push(sel.value);
-        });
-
-        if (options.length === 0) { alert("Selecciona al menos 1 objeto."); return; }
-
-        payload = {
-            "my_team": { "members": teamMembers },
-            "options": options
-        };
-
+        const options = rewardSelects.map(s => s.value).filter(v => v);
+        if (!options.length) { alert("Elige opciones."); return; }
+        payload = { "my_team": { "members": teamMembers }, "options": options };
     } else {
-        // LÓGICA DE COMBATE/CAPTURA
         const enemyName = enemySelect.value;
-        if (!enemyName) { alert("¡Elige un enemigo!"); return; }
+        if (!enemyName) { alert("Falta enemigo."); return; }
         const enemyData = await fetchPokemonData(enemyName);
-        
-        payload = {
-            "my_team": { "members": teamMembers },
-            "enemy_pokemon": enemyData
-        };
+        payload = { "my_team": { "members": teamMembers }, "enemy_pokemon": enemyData };
     }
 
     try {
-        const response = await fetch(`${API_URL}${endpoint}`, {
+        const resp = await fetch(`${API_URL}${endpoint}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
         });
-
-        const result = await response.json();
+        const result = await resp.json();
         showResults(result, isItemAnalysis);
-
-    } catch (error) {
-        console.error(error);
-        alert("Error en la petición. Mira la consola.");
-    }
+    } catch (e) { alert("Error de conexión con el Asistente."); }
 }
 
 function showResults(result, isItemAnalysis) {
@@ -220,28 +266,20 @@ function showResults(result, isItemAnalysis) {
     reasonsList.innerHTML = '';
 
     if (isItemAnalysis) {
-        // --- MODO RECOMPENSAS (CON DESCRIPCIÓN) ---
-        resultArea.style.borderLeftColor = '#f9e2af'; // Borde dorado
-        
-        // 1. Cabecera con la mejor opción y su descripción destacada
+        resultArea.style.borderLeftColor = '#f9e2af';
         const bestItem = result.best_option;
-        const bestDesc = bestItem.data.description || "Sin descripción disponible.";
+        const bestDesc = bestItem.data.description || "Sin descripción.";
         
         recommendationText.innerHTML = `
             <div style="margin-bottom: 10px;">
                 <strong style="font-size: 1.2em;">🏆 ${result.summary}</strong>
-                <div style="background: rgba(0,0,0,0.2); padding: 8px; border-radius: 6px; margin-top: 5px; font-style: italic; color: #bac2de;">
-                    "${bestDesc}"
-                </div>
-            </div>
-        `;
-
-        // 2. Lista detallada de todas las opciones comparadas
+                <div style="background: rgba(0,0,0,0.2); padding: 8px; border-radius: 6px; margin-top: 5px; font-style: italic; color: #bac2de;">"${bestDesc}"</div>
+            </div>`;
+        
         result.analysis.forEach(opt => {
             const li = document.createElement('li');
             const desc = opt.data.description || "";
-            
-            li.style.marginBottom = "12px"; // Separación entre items
+            li.style.marginBottom = "12px";
             li.innerHTML = `
                 <div style="display: flex; justify-content: space-between; align-items: baseline;">
                     <strong>${opt.name}</strong>
@@ -254,15 +292,12 @@ function showResults(result, isItemAnalysis) {
         });
 
     } else if (result.verdict) {
-        // --- MODO CAPTURA ---
         recommendationText.innerHTML = `<strong style="color:${result.color}">${result.verdict}</strong>`;
         resultArea.style.borderLeftColor = result.color === 'green' ? '#a6e3a1' : '#f38ba8';
         result.reasons.forEach(r => {
             const li = document.createElement('li'); li.textContent = r; reasonsList.appendChild(li);
         });
-
     } else {
-        // --- MODO COMBATE ---
         recommendationText.innerHTML = `<strong>${result.summary}</strong>`;
         resultArea.style.borderLeftColor = '#89b4fa';
         const reasons = result.reasons || (result.analysis && result.analysis[0].reasons) || [];
@@ -272,9 +307,17 @@ function showResults(result, isItemAnalysis) {
     }
 }
 
-// LISTENERS
+// Listeners Botones
+btnAddMember.addEventListener('click', () => {
+    if (document.querySelectorAll('.pokemon-slot').length >= 6) { alert("Máximo 6."); return; }
+    createSlotHTML("");
+    saveState();
+    updateCount();
+});
+
 btnAnalyze.addEventListener('click', () => handleAction('/analyze/combat'));
 btnCatch.addEventListener('click', () => handleAction('/analyze/catch'));
-btnItem.addEventListener('click', () => handleAction('/analyze/rewards', true)); // True indica que es modo Item
+btnItem.addEventListener('click', () => handleAction('/analyze/rewards', true));
 
-init();
+// Arrancar
+document.addEventListener('DOMContentLoaded', init);
