@@ -15,8 +15,8 @@
             
             <div class="card team-card">
                 <div class="card-header">
-                    <h2>Tu Equipo (<span id="team-acount">1</span>/6)</h2>
-                    <button id="add-member-btn" class="btn-mini" title="Añadir Pokemón">+</button>
+                    <h2>Tu Equipo (<span id="team-count">1</span>/6)</h2>
+                    <button id="add-member-btn" class="btn-mini" title="Añadir Pokémon">+</button>
                 </div>
                 
                 <div id="team-container" class="team-grid">
@@ -44,8 +44,20 @@
         </div>
 
         <div class="actions">
-            <button id="analyze-btn" class="btn btn-combat">🧠 Analizar Combate</button>
-            <button id="catch-btn" class="btn btn-catch">Captura</button>
+            <button id="analyze-btn" class="btn btn-combat">⚔️ Combate</button>
+            <button id="catch-btn" class="btn btn-catch">📦 Captura</button>
+        </div>
+
+        <hr class="divider">
+
+        <div class="reward-setup">
+            <h2>🎁 Selector de Recompensas</h2>
+            <div class="reward-grid">
+                <select id="reward-1" class="reward-select"><option value="">Opción A...</option></select>
+                <select id="reward-2" class="reward-select"><option value="">Opción B...</option></select>
+                <select id="reward-3" class="reward-select"><option value="">Opción C...</option></select>
+                <button id="item-btn" class="btn btn-item">💎 Elegir Mejor Objeto</button>
+            </div>
         </div>
 
         <div id="result-area" class="result-area hidden">
